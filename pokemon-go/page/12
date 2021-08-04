@@ -41,27 +41,16 @@
 		<div class="h-cont clear">
 			<div class="gy-grid head-grid">
 			<div class="site-branding">
-							<a href="https://www.pokemongroup.com/" rel="home"><img  width="48" height="48" alt="Pokemon Group" data-src="https://www.pokemongroup.com/wp-content/themes/svg/PG.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://www.pokemongroup.com/wp-content/themes/svg/PG.svg" width="48" height="48" alt="Pokemon Group"></noscript></a>
+							<a href="https://www.pokemongroup.com/" rel="home"><img  width="48" height="48" alt="Pokemon Group" data-src="https://www.pokemongroup.com/wp-content/themes/svg/PG.webp" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://www.pokemongroup.com/wp-content/themes/svg/PG.webp" width="48" height="48" alt="Pokemon Group"></noscript></a>
 							<a class="site-title" href="http://p.localhost/" rel="home">Pokemon Group</a>		</div><!-- .site-branding -->
 		<div class="head-search">
 			<div class="gcse-searchbox-only"></div>
 		</div>
 				</div>
 		<nav id="site-navigation" class="main-navigation clear">
-			<div class="menu-top-nav-container"><ul id="primary-menu" class="menu"><li id="menu-item-387904" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-387904"><a href="#">Games List</a>
-<ul class="sub-menu">
-	<li id="menu-item-387905" class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-387905"><a href="http://p.localhost/pokemon-go/" aria-current="page">Pokemon Go</a></li>
-	<li id="menu-item-391574" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-391574"><a href="http://p.localhost/marvel-super-war/">Marvel Super War</a></li>
-	<li id="menu-item-391575" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-391575"><a href="http://p.localhost/pokemon-masters/">Pokemon Masters</a></li>
-	<li id="menu-item-391573" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-391573"><a href="http://p.localhost/jurassic-world-alive/">Jurassic World Alive</a></li>
-	<li id="menu-item-391570" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-391570"><a href="http://p.localhost/draconius-go/">Draconius Go</a></li>
-	<li id="menu-item-387906" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-387906"><a href="http://p.localhost/pokemon-sun-and-moon/">Pokemon Sun and Moon</a></li>
-	<li id="menu-item-391567" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-391567"><a href="http://p.localhost/blood-and-truth/">Blood and Truth</a></li>
-	<li id="menu-item-391569" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-391569"><a href="http://p.localhost/call-of-duty-mobile/">Call of Duty Mobile</a></li>
-	<li id="menu-item-391572" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-391572"><a href="http://p.localhost/fire-emblem-heroes/">Fire Emblem Heroes</a></li>
-	<li id="menu-item-391576" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-391576"><a href="http://p.localhost/wizards-unite/">Wizards Unite</a></li>
-</ul>
-</li>
+			<div class="menu-top-nav-container"><ul id="primary-menu" class="menu"><li id="menu-item-387905" class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-387905"><a href="http://p.localhost/pokemon-go/" aria-current="page">Pokemon Go</a></li>
+<li id="menu-item-391574" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-391574"><a href="http://p.localhost/marvel-super-war/">Marvel Super War</a></li>
+<li id="menu-item-392574" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-392574"><a href="https://www.pokemongroup.com/games">Game List</a></li>
 </ul></div>		</nav><!-- #site-navigation -->
              </div>
 	</header><!-- #masthead -->
@@ -99,17 +88,6 @@
 			<div class="margintop"></div>
 			<div class="gy-grid grid--fit">
 						<article itemprop="itemListElement" itemscope="" itemtype="https://schema.org/Article" class="card">
-				<div class="card-data">
-					<a href="http://p.localhost/rare-candy/">
-						<div class="card-image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-							<img width="1024" height="576"   alt="Pokemon Go Rare Candy" data-srcset="http://p.localhost/wp-content/uploads/2017/06/Pokemon-Go-Rare-Candy.jpg 1024w, http://p.localhost/wp-content/uploads/2017/06/Pokemon-Go-Rare-Candy-800x450.jpg 800w"  data-src="http://p.localhost/wp-content/uploads/2017/06/Pokemon-Go-Rare-Candy.jpg" data-sizes="(max-width: 1024px) 100vw, 1024px" class="card-img wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="1024" height="576" src="http://p.localhost/wp-content/uploads/2017/06/Pokemon-Go-Rare-Candy.jpg" class="card-img wp-post-image" alt="Pokemon Go Rare Candy" srcset="http://p.localhost/wp-content/uploads/2017/06/Pokemon-Go-Rare-Candy.jpg 1024w, http://p.localhost/wp-content/uploads/2017/06/Pokemon-Go-Rare-Candy-800x450.jpg 800w" sizes="(max-width: 1024px) 100vw, 1024px" /></noscript>						</div>
-						<div class="card-title clear">
-							<h3 class="card-heading" itemprop="headline">Rare Candy</h3>
-						</div>
-					</a>
-				</div>
-			</article>
-			<article itemprop="itemListElement" itemscope="" itemtype="https://schema.org/Article" class="card">
 				<div class="card-data">
 					<a href="http://p.localhost/legendary-raid-battles/">
 						<div class="card-image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
@@ -318,6 +296,17 @@
 					</a>
 				</div>
 			</article>
+			<article itemprop="itemListElement" itemscope="" itemtype="https://schema.org/Article" class="card">
+				<div class="card-data">
+					<a href="http://p.localhost/good-vaporeon-compared-7-generations-water-types/">
+						<div class="card-image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+							<img width="1024" height="768"   alt="Vaporeon" data-srcset="http://p.localhost/wp-content/uploads/2017/05/Vaporeon.png 1024w, http://p.localhost/wp-content/uploads/2017/05/Vaporeon-640x480.png 640w"  data-src="http://p.localhost/wp-content/uploads/2017/05/Vaporeon.png" data-sizes="(max-width: 1024px) 100vw, 1024px" class="card-img wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="1024" height="768" src="http://p.localhost/wp-content/uploads/2017/05/Vaporeon.png" class="card-img wp-post-image" alt="Vaporeon" srcset="http://p.localhost/wp-content/uploads/2017/05/Vaporeon.png 1024w, http://p.localhost/wp-content/uploads/2017/05/Vaporeon-640x480.png 640w" sizes="(max-width: 1024px) 100vw, 1024px" /></noscript>						</div>
+						<div class="card-title clear">
+							<h3 class="card-heading" itemprop="headline">How Good Is Vaporeon Compared To All 7 Generations Of Water Types?</h3>
+						</div>
+					</a>
+				</div>
+			</article>
 			</div>
 			<div class="margintop"></div>
 		
@@ -328,18 +317,10 @@
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<section class="action-call">
-	<div class="container clear">
-		<div class="gy-grid grid-3" id="grid-3">
-		<h2>Web Developement</h2>
-		<p>Let's Work Together</p>
-		<div class="contact-footer"><a href="https://yadavgaurav.com/contact/">Get In Touch</a></div>
-	</div></div>
-</section>
 <footer id="colophon" class="site-footer">
 		<div class="h-cont gy-grid grid-2" style="padding-bottom:20px">
 			<div class="action-c">
-				<a href="https://www.pokemongroup.com/" rel="home"><img  width="64" height="64" alt="Pokemon Group" data-src="https://www.pokemongroup.com/wp-content/themes/svg/PG.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://www.pokemongroup.com/wp-content/themes/svg/PG.svg" width="64" height="64" alt="Pokemon Group"></noscript></a>
+				<a href="https://www.pokemongroup.com/" rel="home"><img  width="64" height="64" alt="Pokemon Group" data-src="https://www.pokemongroup.com/wp-content/themes/svg/PG.webp" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://www.pokemongroup.com/wp-content/themes/svg/PG.webp" width="64" height="64" alt="Pokemon Group"></noscript></a>
 				<p>Pokemon Group is a games news site, publishing several informative guides, analysis, and news articles every month. Dedicated, focused and loving Games. </p>
 			</div>
 			<div class="social-l">
