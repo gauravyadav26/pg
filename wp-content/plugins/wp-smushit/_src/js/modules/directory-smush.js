@@ -75,7 +75,7 @@ import Scanner from '../smush/directory-scanner';
 			/**
 			 * Smush images: Smush in Choose Directory modal clicked
 			 */
-			$( '.wp-smush-select-dir' ).on( 'click', function( e ) {
+			$( '#wp-smush-select-dir' ).on( 'click', function( e ) {
 				e.preventDefault();
 
 				// If disabled, do not process
@@ -95,9 +95,8 @@ import Scanner from '../smush/directory-scanner';
 				// Disable button
 				button.prop( 'disabled', true );
 
-				const spinner = button.parent().find( '.add-dir-loader' );
-				// Display the spinner
-				spinner.addClass( 'sui-icon-loader sui-loading' );
+				// Display the spinner.
+				button.addClass('sui-button-onload');
 
 				const selectedFolders = self.tree.getSelectedNodes();
 
@@ -137,14 +136,11 @@ import Scanner from '../smush/directory-scanner';
 			 */
 			progressDialog.on(
 				'click',
-				'#cancel-directory-smush, .sui-dialog-close, .wp-smush-cancel-dir',
-				function( e ) {
+				'#cancel-directory-smush, #dialog-close-div, .wp-smush-cancel-dir',
+				function (e) {
 					e.preventDefault();
 					// Display the spinner
-					$( this )
-						.parent()
-						.find( '.add-dir-loader' )
-						.addClass( 'sui-icon-loader sui-loading' );
+					$('.wp-smush-cancel-dir').addClass('sui-button-onload');
 					self.scanner
 						.cancel()
 						.done(
@@ -186,7 +182,7 @@ import Scanner from '../smush/directory-scanner';
 		 */
 		initFileTree() {
 			const self = this,
-				smushButton = $( 'button.wp-smush-select-dir' ),
+				smushButton = $( 'button#wp-smush-select-dir' ),
 				ajaxSettings = {
 					type: 'GET',
 					url: ajaxurl,
@@ -219,11 +215,6 @@ import Scanner from '../smush/directory-scanner';
 							.done( ( response ) => resolve( response ) )
 							.fail( reject );
 					} );
-
-					// Update the button text.
-					data.result.then(
-						smushButton.html( self.wp_smush_msgs.add_dir )
-					);
 				},
 				loadChildren: ( event, data ) =>
 					data.node.fixSelection3AfterClick(), // Apply parent's state to new child nodes:
