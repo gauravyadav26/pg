@@ -1,0 +1,207 @@
+[2022-06-21 20:29:15 : INFO] - Re_Smush_It_Task server status: Online 
+[2022-06-21 20:29:16 : INFO] - 
+ 
+[2022-06-21 20:29:16 : INFO] - Header for logs at time:  Tue, 21 Jun 2022 20:29:16 +0000 on http://p.localhost 
+[2022-06-21 20:29:16 : INFO] - WP: 6.0 
+[2022-06-21 20:29:16 : INFO] - PHP: 8.1.2 (fpm-fcgi, Linux gauravubu 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) 
+[2022-06-21 20:29:16 : INFO] - MySQL: 5.5.5 
+[2022-06-21 20:29:16 : INFO] - WPLANG: en_US 
+[2022-06-21 20:29:16 : INFO] - Server: nginx/1.18.0 
+[2022-06-21 20:29:16 : INFO] - Outbound connections: N 
+[2022-06-21 20:29:16 : INFO] - safe_mode: 0 
+[2022-06-21 20:29:16 : INFO] - max_execution_time: 0 
+[2022-06-21 20:29:16 : INFO] - memory_limit: 512M (used: 5.7M | 8M) 
+[2022-06-21 20:29:16 : INFO] - multisite: N 
+[2022-06-21 20:29:16 : INFO] - openssl: OpenSSL 3.0.2 15 Mar 2022 
+[2022-06-21 20:29:43 : INFO] - A total of 73 tasks of type smush found and will be processed in this iteration 
+[2022-06-21 20:29:43 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2022-06-21 20:29:43 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2022-06-21 20:29:43 : INFO] - Processing task with ID : 1, and type 'smush' 
+[2022-06-21 20:29:43 : INFO] - Re_Smush_It_Task - Attachment ID : 392788, Started on : June 21, 2022 08:29:16 
+[2022-06-21 20:29:43 : INFO] - 75 
+[2022-06-21 20:29:52 : INFO] - Backing up the original image - 2022/02/Indotaurus-updraft-pre-smush-original.jpeg 
+[2022-06-21 20:29:52 : INFO] - Successfully optimized the image - /var/www/p/wp-content/uploads/2022/02/Indotaurus.jpeg.The file was compressed from 3.55 KB to 1.87 KB saving 47.36 percent using WP-Optimize 
+[2022-06-21 20:29:52 : INFO] - Completed processing task with ID : 1, and type 'smush' 
+[2022-06-21 20:29:52 : INFO] - Processing task with ID : 2, and type 'smush' 
+[2022-06-21 20:29:52 : INFO] - Re_Smush_It_Task - Attachment ID : 392878, Started on : June 21, 2022 08:29:17 
+[2022-06-21 20:29:52 : INFO] - 75 
+[2022-06-21 20:30:00 : INFO] - Task with ID 2 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2022-06-21 20:30:00 : INFO] - data: {"src":"http:\/\/par2.static.resmush.it\/215457c2fe30632a8c974a1b9325ac46\/_src_Doedicurus.jpeg","dest":"http:\/\/par2.static.resmush.it\/215457c2fe30632a8c974a1b9325ac46\/Doedicurus.jpeg","src_size":3880,"dest_size":1993,"percent":49,"output":"json","expires":"Tue, 21 Jun 2022 22:34:55 +0200","generator":"reSmush.it rev.3.0.4.20210124"} 
+[2022-06-21 20:30:00 : INFO] - Processing task with ID : 3, and type 'smush' 
+[2022-06-21 20:30:00 : INFO] - Task with ID 3 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Blight.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:00 : INFO] - Processing task with ID : 4, and type 'smush' 
+[2022-06-21 20:30:00 : INFO] - Task with ID 4 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Nurse.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:00 : INFO] - Processing task with ID : 5, and type 'smush' 
+[2022-06-21 20:30:00 : INFO] - Task with ID 5 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Spirit.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:00 : INFO] - Processing task with ID : 6, and type 'smush' 
+[2022-06-21 20:30:00 : INFO] - Task with ID 6 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Executioner.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:01 : INFO] - Processing task with ID : 7, and type 'smush' 
+[2022-06-21 20:30:01 : INFO] - Task with ID 7 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Artist.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:01 : INFO] - Processing task with ID : 8, and type 'smush' 
+[2022-06-21 20:30:01 : INFO] - Task with ID 8 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Hag.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:01 : INFO] - Processing task with ID : 9, and type 'smush' 
+[2022-06-21 20:30:01 : INFO] - Task with ID 9 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Huntress.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:01 : INFO] - Processing task with ID : 10, and type 'smush' 
+[2022-06-21 20:30:01 : INFO] - Task with ID 10 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Oni.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:01 : INFO] - Processing task with ID : 11, and type 'smush' 
+[2022-06-21 20:30:01 : INFO] - Task with ID 11 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/plague.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:01 : INFO] - Processing task with ID : 12, and type 'smush' 
+[2022-06-21 20:30:01 : INFO] - Task with ID 12 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Twins.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:01 : INFO] - Processing task with ID : 13, and type 'smush' 
+[2022-06-21 20:30:01 : INFO] - Task with ID 13 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Cenobite.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:01 : INFO] - Processing task with ID : 14, and type 'smush' 
+[2022-06-21 20:30:01 : INFO] - Task with ID 14 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Cannibal.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:01 : INFO] - Processing task with ID : 15, and type 'smush' 
+[2022-06-21 20:30:01 : INFO] - Task with ID 15 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Deathslinger.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:01 : INFO] - Processing task with ID : 16, and type 'smush' 
+[2022-06-21 20:30:01 : INFO] - Task with ID 16 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Demogorgan.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:01 : INFO] - Processing task with ID : 17, and type 'smush' 
+[2022-06-21 20:30:01 : INFO] - Task with ID 17 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Hillbilly.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:01 : INFO] - Processing task with ID : 18, and type 'smush' 
+[2022-06-21 20:30:01 : INFO] - Task with ID 18 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Nemesis.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:01 : INFO] - Processing task with ID : 19, and type 'smush' 
+[2022-06-21 20:30:02 : INFO] - Task with ID 19 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Trickster.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:02 : INFO] - Processing task with ID : 20, and type 'smush' 
+[2022-06-21 20:30:02 : INFO] - Task with ID 20 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Clown.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:02 : INFO] - Processing task with ID : 21, and type 'smush' 
+[2022-06-21 20:30:02 : INFO] - Task with ID 21 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Doctor.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:02 : INFO] - Processing task with ID : 22, and type 'smush' 
+[2022-06-21 20:30:02 : INFO] - Task with ID 22 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Ghost-Face.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:02 : INFO] - Processing task with ID : 23, and type 'smush' 
+[2022-06-21 20:30:02 : INFO] - Task with ID 23 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Legion.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:02 : INFO] - Processing task with ID : 24, and type 'smush' 
+[2022-06-21 20:30:02 : INFO] - Task with ID 24 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Nightmare.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:02 : INFO] - Processing task with ID : 25, and type 'smush' 
+[2022-06-21 20:30:02 : INFO] - Task with ID 25 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Onryo.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:02 : INFO] - Processing task with ID : 26, and type 'smush' 
+[2022-06-21 20:30:02 : INFO] - Task with ID 26 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Wraith.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:02 : INFO] - Processing task with ID : 27, and type 'smush' 
+[2022-06-21 20:30:03 : INFO] - Task with ID 27 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Pig.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:03 : INFO] - Processing task with ID : 28, and type 'smush' 
+[2022-06-21 20:30:03 : INFO] - Task with ID 28 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Shape.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:03 : INFO] - Processing task with ID : 29, and type 'smush' 
+[2022-06-21 20:30:03 : INFO] - Task with ID 29 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Trapper.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:03 : INFO] - Processing task with ID : 30, and type 'smush' 
+[2022-06-21 20:30:03 : INFO] - Task with ID 30 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/deadbydayligh-tier-list.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:03 : INFO] - Processing task with ID : 31, and type 'smush' 
+[2022-06-21 20:30:03 : INFO] - Task with ID 31 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Sett.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:03 : INFO] - Processing task with ID : 32, and type 'smush' 
+[2022-06-21 20:30:03 : INFO] - Task with ID 32 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2021/08/Shen.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:03 : INFO] - Processing task with ID : 33, and type 'smush' 
+[2022-06-21 20:30:03 : INFO] - Task with ID 33 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Jayce.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:03 : INFO] - Processing task with ID : 34, and type 'smush' 
+[2022-06-21 20:30:03 : INFO] - Task with ID 34 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2021/08/Morgana.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:03 : INFO] - Processing task with ID : 35, and type 'smush' 
+[2022-06-21 20:30:03 : INFO] - Task with ID 35 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Karma.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:03 : INFO] - Processing task with ID : 36, and type 'smush' 
+[2022-06-21 20:30:03 : INFO] - Task with ID 36 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Brand.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:03 : INFO] - Processing task with ID : 37, and type 'smush' 
+[2022-06-21 20:30:04 : INFO] - Task with ID 37 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Caitlyn.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:04 : INFO] - Processing task with ID : 38, and type 'smush' 
+[2022-06-21 20:30:04 : INFO] - Task with ID 38 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Varus.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:04 : INFO] - Processing task with ID : 39, and type 'smush' 
+[2022-06-21 20:30:04 : INFO] - Task with ID 39 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/05/Yuumi.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:04 : INFO] - Processing task with ID : 40, and type 'smush' 
+[2022-06-21 20:30:04 : INFO] - Task with ID 40 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Albertocevia.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:04 : INFO] - Processing task with ID : 41, and type 'smush' 
+[2022-06-21 20:30:04 : INFO] - Task with ID 41 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/AnkylosLux.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:04 : INFO] - Processing task with ID : 42, and type 'smush' 
+[2022-06-21 20:30:04 : INFO] - Task with ID 42 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Allodrigues.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:04 : INFO] - Processing task with ID : 43, and type 'smush' 
+[2022-06-21 20:30:04 : INFO] - Task with ID 43 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Ardontognathus.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:04 : INFO] - Processing task with ID : 44, and type 'smush' 
+[2022-06-21 20:30:04 : INFO] - Task with ID 44 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Ardontognathus-1.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:04 : INFO] - Processing task with ID : 45, and type 'smush' 
+[2022-06-21 20:30:04 : INFO] - Task with ID 45 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Tarbognathus.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:04 : INFO] - Processing task with ID : 46, and type 'smush' 
+[2022-06-21 20:30:04 : INFO] - Task with ID 46 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Thylaconyx.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:04 : INFO] - Processing task with ID : 47, and type 'smush' 
+[2022-06-21 20:30:04 : INFO] - Task with ID 47 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Troodoboa.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:04 : INFO] - Processing task with ID : 48, and type 'smush' 
+[2022-06-21 20:30:04 : INFO] - Task with ID 48 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Albertospinos.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:05 : INFO] - Processing task with ID : 49, and type 'smush' 
+[2022-06-21 20:30:05 : INFO] - Task with ID 49 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Ankylodactylus.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:05 : INFO] - Processing task with ID : 50, and type 'smush' 
+[2022-06-21 20:30:05 : INFO] - Task with ID 50 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Fukuimimus.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:05 : INFO] - Processing task with ID : 51, and type 'smush' 
+[2022-06-21 20:30:05 : INFO] - Task with ID 51 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Ailurarctos.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:05 : INFO] - Processing task with ID : 52, and type 'smush' 
+[2022-06-21 20:30:05 : INFO] - Task with ID 52 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Anurognathus.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:05 : INFO] - Processing task with ID : 53, and type 'smush' 
+[2022-06-21 20:30:05 : INFO] - Task with ID 53 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/powerstone.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:05 : INFO] - Processing task with ID : 54, and type 'smush' 
+[2022-06-21 20:30:05 : INFO] - Task with ID 54 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/RealityStone.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:05 : INFO] - Processing task with ID : 55, and type 'smush' 
+[2022-06-21 20:30:05 : INFO] - Task with ID 55 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/SoulStone.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:05 : INFO] - Processing task with ID : 56, and type 'smush' 
+[2022-06-21 20:30:05 : INFO] - Task with ID 56 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Ovilophosaurus.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:05 : INFO] - Processing task with ID : 57, and type 'smush' 
+[2022-06-21 20:30:05 : INFO] - Task with ID 57 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Preondactylus.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:05 : INFO] - Processing task with ID : 58, and type 'smush' 
+[2022-06-21 20:30:05 : INFO] - Task with ID 58 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Dimetrodon.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:06 : INFO] - Processing task with ID : 59, and type 'smush' 
+[2022-06-21 20:30:06 : INFO] - Task with ID 59 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Megalonyx.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:06 : INFO] - Processing task with ID : 60, and type 'smush' 
+[2022-06-21 20:30:06 : INFO] - Task with ID 60 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Parasaurolophus.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:06 : INFO] - Processing task with ID : 61, and type 'smush' 
+[2022-06-21 20:30:06 : INFO] - Task with ID 61 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Rodrigues-Solitaire.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:06 : INFO] - Processing task with ID : 62, and type 'smush' 
+[2022-06-21 20:30:06 : INFO] - Task with ID 62 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Titanoboa.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:06 : INFO] - Processing task with ID : 63, and type 'smush' 
+[2022-06-21 20:30:06 : INFO] - Task with ID 63 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Argentavis.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:06 : INFO] - Processing task with ID : 64, and type 'smush' 
+[2022-06-21 20:30:06 : INFO] - Task with ID 64 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Blue.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:07 : INFO] - Processing task with ID : 65, and type 'smush' 
+[2022-06-21 20:30:07 : INFO] - Task with ID 65 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Carbonemys.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:07 : INFO] - Processing task with ID : 66, and type 'smush' 
+[2022-06-21 20:30:07 : INFO] - Task with ID 66 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Cervalces.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:07 : INFO] - Processing task with ID : 67, and type 'smush' 
+[2022-06-21 20:30:07 : INFO] - Task with ID 67 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Dilophosaurus.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:07 : INFO] - Processing task with ID : 68, and type 'smush' 
+[2022-06-21 20:30:07 : INFO] - Task with ID 68 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Fukuisaurus.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:07 : INFO] - Processing task with ID : 69, and type 'smush' 
+[2022-06-21 20:30:07 : INFO] - Task with ID 69 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Smilodon.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:07 : INFO] - Processing task with ID : 70, and type 'smush' 
+[2022-06-21 20:30:07 : INFO] - Re_Smush_It_Task - Attachment ID : 393124, Started on : June 21, 2022 08:29:42 
+[2022-06-21 20:30:07 : INFO] - 75 
+[2022-06-21 20:30:11 : INFO] - Backing up the original image - 2022/06/health-updraft-pre-smush-original.png 
+[2022-06-21 20:30:11 : INFO] - Successfully optimized the image - /var/www/p/wp-content/uploads/2022/06/health.png.The file was compressed from 1.59 KB to 1.59 KB saving 0 percent using WP-Optimize 
+[2022-06-21 20:30:11 : INFO] - Completed processing task with ID : 70, and type 'smush' 
+[2022-06-21 20:30:11 : INFO] - Processing task with ID : 71, and type 'smush' 
+[2022-06-21 20:30:11 : INFO] - Re_Smush_It_Task - Attachment ID : 393136, Started on : June 21, 2022 08:29:42 
+[2022-06-21 20:30:11 : INFO] - 75 
+[2022-06-21 20:30:17 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2022-06-21 20:30:17 : INFO] - Processing task with ID : 72, and type 'smush' 
+[2022-06-21 20:30:17 : INFO] - Task with ID 72 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Inostrancevia.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:17 : INFO] - Processing task with ID : 73, and type 'smush' 
+[2022-06-21 20:30:17 : INFO] - Task with ID 73 and type (smush) failed with error code invalid_file_type - /var/www/p/wp-content/uploads/2022/06/Albertoceviabig.webp - cannot be optimized, it has an invalid file type 
+[2022-06-21 20:30:17 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2022-06-21 20:30:17 : INFO] - Successfully processed the queue (smush). 73 tasks were processed out of 73. 
+[2022-06-21 20:30:17 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2022-06-21 20:30:17 : INFO] - 
+ 
+[2022-06-21 20:30:17 : INFO] - Header for logs at time:  Tue, 21 Jun 2022 20:30:17 +0000 on http://p.localhost 
+[2022-06-21 20:30:17 : INFO] - WP: 6.0 
+[2022-06-21 20:30:17 : INFO] - PHP: 8.1.2 (fpm-fcgi, Linux gauravubu 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) 
+[2022-06-21 20:30:17 : INFO] - MySQL: 5.5.5 
+[2022-06-21 20:30:17 : INFO] - WPLANG: en_US 
+[2022-06-21 20:30:17 : INFO] - Server: nginx/1.18.0 
+[2022-06-21 20:30:17 : INFO] - Outbound connections: N 
+[2022-06-21 20:30:17 : INFO] - safe_mode: 0 
+[2022-06-21 20:30:17 : INFO] - max_execution_time: 0 
+[2022-06-21 20:30:17 : INFO] - memory_limit: 512M (used: 5.6M | 8M) 
+[2022-06-21 20:30:17 : INFO] - multisite: N 
+[2022-06-21 20:30:17 : INFO] - openssl: OpenSSL 3.0.2 15 Mar 2022 
+[2022-06-21 20:30:17 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2022-06-21 20:30:17 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2022-06-21 20:30:17 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2022-06-21 20:30:17 : INFO] - Processing task with ID : 71, and type 'smush' 
+[2022-06-21 20:30:17 : INFO] - Re_Smush_It_Task - Attachment ID : 393136, Started on : June 21, 2022 08:29:42 
+[2022-06-21 20:30:17 : INFO] - 75 
+[2022-06-21 20:30:27 : INFO] - Backing up the original image - 2022/06/damage-updraft-pre-smush-original.png 
+[2022-06-21 20:30:27 : INFO] - Successfully optimized the image - /var/www/p/wp-content/uploads/2022/06/damage.png.The file was compressed from 3.04 KB to 2.66 KB saving 12.38 percent using WP-Optimize 
+[2022-06-21 20:30:27 : INFO] - Completed processing task with ID : 71, and type 'smush' 
+[2022-06-21 20:30:27 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2022-06-21 20:30:27 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2022-06-21 20:30:28 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2022-06-21 20:30:28 : INFO] - Cleaning up tasks of type (smush). A total of 73 tasks will be deleted. 
