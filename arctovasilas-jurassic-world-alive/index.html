@@ -1427,6 +1427,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
     let oCritD = Number(document.getElementById("ocritd").innerHTML);
 
     function ohpinc() {
+        let hp = Number(document.getElementById("hp").innerHTML);
         let plvl = lvl * 7;
         let points = oHealth + oDamage + oSpd + oArmor + oCrit + oCritD;
         if (oHealth < 102){
@@ -1434,9 +1435,10 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
             oHealth++;
             document.getElementById("ohealth").innerHTML = oHealth;
             let realHp = Number(document.getElementById("realHealth").innerHTML);
-            let incHp = Math.floor(realHp + 40);
+            let incHp = Math.floor(realHp + realHp/40*hp + 40);
+            let tHp = Math.floor(realHp + 40);
             document.getElementById("health").innerHTML = incHp;
-            document.getElementById("realHealth").innerHTML = incHp;
+            document.getElementById("realHealth").innerHTML = tHp;
         }}
     }
 
@@ -1452,6 +1454,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
     }
 
     function odmginc() {
+        let dmg = Number(document.getElementById("dmg").innerHTML);
         let plvl = lvl * 7;
         let points = oHealth + oDamage + oSpd + oArmor + oCrit + oCritD;
         if (oDamage < 97) {
@@ -1459,9 +1462,10 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
             oDamage++;
             document.getElementById("odamage").innerHTML = oDamage;
             let realDmg = Number(document.getElementById("realDamage").innerHTML);
-            let incDmg = Math.floor(realDmg + 15);
+            let incDmg = Math.floor(realDmg + dmg*realDmg/40 + 15);
+            let tDmg = Math.floor(realDmg + 15);
             document.getElementById("damage").innerHTML = incDmg;
-            document.getElementById("realDamage").innerHTML = incDmg;
+            document.getElementById("realDamage").innerHTML = tDmg;
         }}
     }
 
