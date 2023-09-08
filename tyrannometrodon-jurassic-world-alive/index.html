@@ -1050,7 +1050,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
     </div>
     
     
-    <style>th,.share-buttons{background: var(--wp--preset--color--jwalight);}.grid-fit{ grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); grid-gap: 8px; grid-row-gap: 20px;} .grid-inner-fit{ grid-template-columns: 36px auto; padding: 4px;} .pm-tier{ border: 1px solid #eee; text-align: center; overflow: hidden;} .pm-tier-img, .pm-tier-title{ align-self: center; font-weight: 600; line-height: 1;}.pm-tier-effects{background: var(--wp--preset--color--jwa);} .expert li{background:var(--wp--preset--color--jwalight) ;}.pm-tier-effects, .expert li{ display: block;text-align: center; padding: 6px; color: #fff;} .ability-effect{background: var(--wp--preset--color--jwa); border-radius: 6px; padding:14px}.priority img{position: relative;top: -36px;z-index: 1;} .priority::before{ display: inline-block; position: relative;z-index: 99; left: 18px; content: url(/wp-content/uploads/2023/01/priority.png); transform: scale(.3)}.precise img{position: relative;top: -48px;z-index: 1;} .precise::before{ display: inline-block; position: relative; z-index: 99;; left: -20px; content: url(/wp-content/uploads/2023/01/precise.png); transform: scale(.3)} .arro{ text-align: center;}.swap img{position: relative;top: -36px;z-index: 1;} .swap::before{ display: inline-block; position: relative; z-index: 99; left: 28px; content: url(/wp-content/uploads/2023/01/swap-in.png); transform: scale(.3)}.revenge img{position: relative;top: 54px;z-index: 1;} .revenge::after{ display: inline-block; position: relative; z-index: 99;; left: -24px; content: url(/wp-content/uploads/2023/01/revenge.png); transform: scale(.2)}.wp-block-comment-template li {background: var(--wp--preset--color--jwalight)}.yarpp-thumbnails-horizontal {background: var(--wp--preset--color--jwalight)}.yarpp-thumbnails-horizontal a{color:#fff;background: var(--wp--preset--color--jwa);border-radius: 12px;}</style>
+    <style>th,.share-buttons{background: var(--wp--preset--color--jwalight);}.grid-fit{ grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); grid-gap: 8px; grid-row-gap: 20px;} .grid-inner-fit{ grid-template-columns: 36px auto; padding: 4px;} .pm-tier{ border: 1px solid #eee; text-align: center; overflow: hidden;} .pm-tier-img, .pm-tier-title{ align-self: center; font-weight: 600; line-height: 1;}.pm-tier-effects{background: var(--wp--preset--color--jwa);} .expert li{background:var(--wp--preset--color--jwalight) ;}.pm-tier-effects, .expert li{ display: block;text-align: center; padding: 6px; color: #fff;} .ability-effect{background: var(--wp--preset--color--jwa); border-radius: 6px; padding:14px}.priority img{position: relative;top: -36px;z-index: 1;} .priority::before{ display: inline-block; position: relative;z-index: 99; left: 18px; content: url(/wp-content/uploads/2023/01/priority.png); transform: scale(.3)}.precise img{position: relative;top: -48px;z-index: 1;} .precise::before{ display: inline-block; position: relative; z-index: 99;; left: -20px; content: url(/wp-content/uploads/2023/01/precise.png); transform: scale(.3)} .arro{ text-align: center;border-radius: 6px;margin: 0;padding: 4px;}.swap img{position: relative;top: -36px;z-index: 1;} .swap::before{ display: inline-block; position: relative; z-index: 99; left: 28px; content: url(/wp-content/uploads/2023/01/swap-in.png); transform: scale(.3)}.revenge img{position: relative;top: 54px;z-index: 1;} .revenge::after{ display: inline-block; position: relative; z-index: 99;; left: -24px; content: url(/wp-content/uploads/2023/01/revenge.png); transform: scale(.2)}.wp-block-comment-template li {background: var(--wp--preset--color--jwalight)}.yarpp-thumbnails-horizontal {background: var(--wp--preset--color--jwalight)}.yarpp-thumbnails-horizontal a{color:#fff;background: var(--wp--preset--color--jwa);border-radius: 12px;}.arro button{padding: 0;font-size: 0.75rem;background: var(--wp--preset--color--jwalight);border: none;color: #fff;}</style>
         <script>
             let rare = document.getElementById("rare").innerHTML;
         
@@ -1303,10 +1303,12 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                 if (oHealth > 0) {
                     oHealth--;
                     document.getElementById("ohealth").innerHTML = oHealth;
+                    let hp = Number(document.getElementById("hp").innerHTML);
                     let realHp = Number(document.getElementById("realHealth").innerHTML);
-                    let decHp = Math.floor(realHp - 40);
+                    let decHp = Math.floor(realHp + (realHp -40)/40*hp - 40);
+                    let tHp = Math.floor(realHp - 40);
                     document.getElementById("health").innerHTML = decHp;
-                    document.getElementById("realHealth").innerHTML = decHp;
+                    document.getElementById("realHealth").innerHTML = tHp;
                 }
             }
         
@@ -1330,10 +1332,12 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                 if (oDamage > 0) {
                     oDamage--;
                     document.getElementById("odamage").innerHTML = oDamage;
+                    let dmg = Number(document.getElementById("dmg").innerHTML);
                     let realDmg = Number(document.getElementById("realDamage").innerHTML);
-                    let decDmg = Math.floor(realDmg - 15);
+                    let decDmg = Math.floor(realDmg + dmg*(realDmg-15)/40 - 15);
+                    let tDmg = Math.floor(realDmg - 15);
                     document.getElementById("damage").innerHTML = decDmg;
-                    document.getElementById("realDamage").innerHTML = decDmg;
+                    document.getElementById("realDamage").innerHTML = tDmg;
                 }
             }
         
