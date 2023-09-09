@@ -388,6 +388,8 @@ template {
 .wp-block-comment-reply-link a:hover {background: var(--wp--preset--color--main);
     padding: 8px 20px;
     color: var(--wp--preset--color--secondary);}
+.cont-padding{padding: clamp(1rem, 2vw, 1.5rem); border-radius: 8px;}
+.ability-title{var(--wp--preset--color--jwalight);color: var(--wp--preset--color--vivid-cyan-blue);font-weight: bolder;}
 @media (min-width:900px) {
 	.post-grid{grid-template-columns:1fr 1fr;}
 	.post-grid .wp-block-post-title{display:flex;align-items:center;}
