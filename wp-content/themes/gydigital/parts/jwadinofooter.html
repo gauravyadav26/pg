@@ -209,15 +209,32 @@
                         document.getElementById("dmg").innerHTML = dmg;
                         let realDmg = document.getElementById("realDamage").innerHTML;
                         let incDmg = Math.floor(Number(realDmg) + dmg * realDmg / 40);
-                        document.getElementById("damage").innerHTML = incDmg
+                        let incDmg15 = Math.floor(incDmg*1.5);
+                        let incDmg20 = incDmg*2;
+                        let dmgEl = document.querySelectorAll(".damage");
+                        dmgEl.forEach(el => el.innerHTML = incDmg);
+                        let dmgEl15 = document.querySelectorAll(".damage15");
+                        dmgEl15.forEach(el => el.innerHTML = incDmg15);
+                        let dmgEl20 = document.querySelectorAll(".damage20");
+                        dmgEl20.forEach(el => el.innerHTML = incDmg20);
                     }
                 }
                 if (dmg === 0) {
-                    document.getElementById("damage").style.color = "rgb(100, 220, 188)"
+                    let dmgEl = document.querySelectorAll(".damage");
+                        dmgEl.forEach(el => el.style.color = "rgb(100, 220, 188)");
+                        let dmgEl15 = document.querySelectorAll(".damage15");
+                        dmgEl15.forEach(el => el.style.color = "rgb(100, 220, 188)");
+                        let dmgEl20 = document.querySelectorAll(".damage20");
+                        dmgEl20.forEach(el => el.style.color = "rgb(100, 220, 188)");
                 }
                 if (dmg === 19) {
                     if (boost < lvl) {
-                        document.getElementById("damage").style.color = "rgb(226, 202, 29)"
+                        let dmgEl = document.querySelectorAll(".damage");
+                        dmgEl.forEach(el => el.style.color = "rgb(226, 202, 29)");
+                        let dmgEl15 = document.querySelectorAll(".damage15");
+                        dmgEl15.forEach(el => el.style.color = "rgb(226, 202, 29)");
+                        let dmgEl20 = document.querySelectorAll(".damage20");
+                        dmgEl20.forEach(el => el.style.color = "rgb(226, 202, 29)");
                     }
                 }
             }
@@ -229,13 +246,30 @@
                     document.getElementById("dmg").innerHTML = dmg;
                     let realDmg = document.getElementById("realDamage").innerHTML;
                     let decDmg = Math.floor(Number(realDmg) + dmg * realDmg / 40);
-                    document.getElementById("damage").innerHTML = decDmg
+                    let incDmg15 = Math.floor(decDmg*1.5);
+                    let incDmg20 = decDmg*2;
+                    let dmgEl = document.querySelectorAll(".damage");
+                    dmgEl.forEach(el => el.innerHTML = decDmg);
+                    let dmgEl15 = document.querySelectorAll(".damage15");
+                    dmgEl15.forEach(el => el.innerHTML = incDmg15);
+                    let dmgEl20 = document.querySelectorAll(".damage20");
+                    dmgEl20.forEach(el => el.innerHTML = incDmg20);
                 }
                 if (dmg === 0) {
-                    document.getElementById("damage").style.color = "#fff"
+                    let dmgEl = document.querySelectorAll(".damage");
+                    dmgEl.forEach(el => el.style.color = "#fff");
+                    let dmgEl15 = document.querySelectorAll(".damage15");
+                    dmgEl15.forEach(el => el.style.color = "#fff");
+                    let dmgEl20 = document.querySelectorAll(".damage20");
+                    dmgEl20.forEach(el => el.style.color = "#fff");
                 }
                 if (dmg === 19) {
-                    document.getElementById("damage").style.color = "rgb(100, 220, 188)"
+                    let dmgEl = document.querySelectorAll(".damage");
+                        dmgEl.forEach(el => el.style.color = "rgb(100, 220, 188)");
+                        let dmgEl15 = document.querySelectorAll(".damage15");
+                        dmgEl15.forEach(el => el.style.color = "rgb(100, 220, 188)");
+                        let dmgEl20 = document.querySelectorAll(".damage20");
+                        dmgEl20.forEach(el => el.style.color = "rgb(100, 220, 188)");
                 }
             }
         
