@@ -23,7 +23,13 @@
 					"slug": "jwalight",
 					"color": "#003D66",
 					"name": "JWA Light"
+				},
+				{
+					"slug": "grey",
+					"color": "#141516",
+					"name": "Grey"
 				}
+
 			]
 		},
         "layout": {
