@@ -1123,403 +1123,59 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
     <style>th,.share-buttons{background: var(--wp--preset--color--jwalight);}.grid-fit{ grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); grid-gap: 8px; grid-row-gap: 20px;} .grid-inner-fit{ grid-template-columns: 36px auto; padding: 4px;} .pm-tier{ border: 1px solid #eee; text-align: center; overflow: hidden;} .pm-tier-img, .pm-tier-title{ align-self: center; font-weight: 600; line-height: 1;}.pm-tier-effects{background: var(--wp--preset--color--jwa);} .expert li{background:var(--wp--preset--color--jwalight) ;}.pm-tier-effects, .expert li{ display: block;text-align: center; padding: 6px; color: #fff;} .ability-effect{background: var(--wp--preset--color--jwa); border-radius: 6px; padding:14px}.priority img{position: relative;top: -36px;z-index: 1;} .priority::before{ display: inline-block; position: relative;z-index: 99; left: 18px; content: url(/wp-content/uploads/2023/01/priority.png); transform: scale(.3)}.precise img{position: relative;top: -48px;z-index: 1;} .precise::before{ display: inline-block; position: relative; z-index: 99;; left: -20px; content: url(/wp-content/uploads/2023/01/precise.png); transform: scale(.3)} .arro{ text-align: center;border-radius: 6px;margin: 0;padding: 4px;}.swap img{position: relative;top: -36px;z-index: 1;} .swap::before{ display: inline-block; position: relative; z-index: 99; left: 28px; content: url(/wp-content/uploads/2023/01/swap-in.png); transform: scale(.3)}.revenge img{position: relative;top: 54px;z-index: 1;} .revenge::after{ display: inline-block; position: relative; z-index: 99;; left: -24px; content: url(/wp-content/uploads/2023/01/revenge.png); transform: scale(.2)}.wp-block-comment-template li {background: var(--wp--preset--color--jwalight)}.yarpp-thumbnails-horizontal {background: var(--wp--preset--color--jwalight)}.yarpp-thumbnails-horizontal a{color:#fff;background: var(--wp--preset--color--jwa);border-radius: 12px;}.arro button{padding: 0;font-size: 0.75rem;background: var(--wp--preset--color--jwalight);border: none;color: #fff;}</style>
         <script>
             let rare = document.getElementById("rare").innerHTML;
-        
+            function damage(n){let r=Number(document.getElementById("dmg").innerHTML),u=document.getElementById("realDamage").innerHTML,i=u*n;document.getElementById("realDamage").innerHTML=i;let t=i+r*i/40;document.querySelectorAll(".damage").forEach(n=>n.innerHTML=Math.round(t));document.querySelectorAll(".damage66").forEach(n=>n.innerHTML=Math.round(t*.66));document.querySelectorAll(".damage15").forEach(n=>n.innerHTML=Math.round(t*1.5));document.querySelectorAll(".damage20").forEach(n=>n.innerHTML=Math.round(t*2));document.querySelectorAll(".damage125").forEach(n=>n.innerHTML=Math.round(t*1.25));document.querySelectorAll(".damage133").forEach(n=>n.innerHTML=Math.round(t*1.33));document.querySelectorAll(".damage05").forEach(n=>n.innerHTML=Math.round(t*.5));document.querySelectorAll(".damage25").forEach(n=>n.innerHTML=Math.round(t*2.5))}
+            function damaged(){let i=Number(document.getElementById("dmg").innerHTML),t=document.getElementById("realDamage").innerHTML,n=Number(t)+i*t/40;document.querySelectorAll(".damage").forEach(t=>t.innerHTML=Math.round(n));document.querySelectorAll(".damage66").forEach(t=>t.innerHTML=Math.round(n*.66));document.querySelectorAll(".damage15").forEach(t=>t.innerHTML=Math.round(n*1.5));document.querySelectorAll(".damage20").forEach(t=>t.innerHTML=Math.round(n*2));document.querySelectorAll(".damage125").forEach(t=>t.innerHTML=Math.round(n*1.25));document.querySelectorAll(".damage133").forEach(t=>t.innerHTML=Math.round(n*1.33));document.querySelectorAll(".damage05").forEach(t=>t.innerHTML=Math.round(n*.5));document.querySelectorAll(".damage25").forEach(t=>t.innerHTML=Math.round(n*2.5))}
+            function hp(n){let i=Number(document.getElementById("hp").innerHTML),r=document.getElementById("realHealth").innerHTML,t=r*n;document.getElementById("realHealth").innerHTML=t;document.getElementById("health").innerHTML=Math.round(t+i*t/40)}
+            function hph(){let t=Number(document.getElementById("hp").innerHTML),n=document.getElementById("realHealth").innerHTML,i=Math.round(Number(n)+t*n/40);document.getElementById("health").innerHTML=i}
+            function damagec(n,t,i){document.querySelectorAll(".damage, .damage15, .damage20, .damage66, .damage125, .damage133, .damage05, .damage25").forEach(r=>r.style.color=`rgb(${n}, ${t}, ${i})`)}
             function inc() {
-                let lvl = document.getElementById("lvl").innerHTML;
-                if (rare === 'omega') {
-                    if (lvl < 30) {
-                        document.getElementById("lvl").innerHTML = Number(lvl) + 1;
-                    }
-                }
-                if (rare != 'omega') {
-                    if (lvl < 30) {
-                        document.getElementById("lvl").innerHTML = Number(lvl) + 1;
-                        let hp = Number(document.getElementById("hp").innerHTML);
-                        let dmg = Number(document.getElementById("dmg").innerHTML);
-                        let realHealth = document.getElementById("realHealth").innerHTML;
-                        let realDamage = document.getElementById("realDamage").innerHTML;
-                        let incHealth = realHealth * 1.05;
-                        let incDamage = realDamage * 1.05;
-                        document.getElementById("realHealth").innerHTML = incHealth;
-                        document.getElementById("realDamage").innerHTML = incDamage;
-                        document.getElementById("health").innerHTML = Math.floor(incHealth + hp * incHealth / 40);
-                        let dmgEl = document.querySelectorAll(".damage");
-                        let dmgE = Math.floor(incDamage + dmg * incDamage / 40);
-                        dmgEl.forEach(el => el.innerHTML = dmgE);
-                        let dmgEl66 = document.querySelectorAll(".damage66");
-                        let dmgE66 = Math.floor((incDamage + dmg * incDamage / 40)*.66);
-                        dmgEl66.forEach(el => el.innerHTML = dmgE66);
-                        let dmgEl15 = document.querySelectorAll(".damage15");
-                        let dmgE15 = Math.floor((incDamage + dmg * incDamage / 40)*1.5);
-                        dmgEl15.forEach(el => el.innerHTML = dmgE15);
-                        let dmgEl2 = document.querySelectorAll(".damage20");
-                        let dmgE2 = Math.floor((incDamage + dmg * incDamage / 40)*2);
-                        dmgEl2.forEach(el => el.innerHTML = dmgE2);
-                        let dmgEl125 = document.querySelectorAll(".damage125");
-                        let dmgE125 = Math.floor((incDamage + dmg * incDamage / 40)*1.25);
-                        dmgEl125.forEach(el => el.innerHTML = dmgE125);
-                        let dmgEl133 = document.querySelectorAll(".damage133");
-                        let dmgE133 = Math.floor((incDamage + dmg * incDamage / 40)*1.33);
-                        dmgEl133.forEach(el => el.innerHTML = dmgE133);
-                        let dmgEl05 = document.querySelectorAll(".damage05");
-                        let dmgE05 = Math.floor((incDamage + dmg * incDamage / 40)*.5);
-                        dmgEl05.forEach(el => el.innerHTML = dmgE05);
-                        let dmgEl25 = document.querySelectorAll(".damage25");
-                        let dmgE25 = Math.floor((incDamage + dmg * incDamage / 40)*2.5);
-                        dmgEl25.forEach(el => el.innerHTML = dmgE25);
-                    }
-                }
+                let lvl =Number(document.getElementById("lvl").innerHTML);
+                if (rare === 'omega') {if (lvl < 30) {document.getElementById("lvl").innerHTML = lvl + 1;}}
+                if (rare != 'omega') {if (lvl < 30) {document.getElementById("lvl").innerHTML = lvl + 1;hp (1.05);damage (1.05);}}
             }
-        
             function dec() {
                 let lvl = document.getElementById("lvl").innerHTML;
-                if (rare === 'omega') {
-                    if (lvl > 1) {
-                        document.getElementById("lvl").innerHTML = lvl - 1;
-                    }
-                }
-                if (rare === 'apex') {
-                    if (lvl > 26) {
-                        document.getElementById("lvl").innerHTML = lvl - 1;
-                        let hp = Number(document.getElementById("hp").innerHTML);
-                        let dmg = Number(document.getElementById("dmg").innerHTML);
-                        let realHealth = document.getElementById("realHealth").innerHTML;
-                        let realDamage = document.getElementById("realDamage").innerHTML;
-                        let incHealth = realHealth / 1.05;
-                        let incDamage = realDamage / 1.05;
-                        document.getElementById("realHealth").innerHTML = incHealth;
-                        document.getElementById("realDamage").innerHTML = incDamage;
-                        document.getElementById("health").innerHTML = Math.floor(incHealth + hp * incHealth / 40);
-                        let dmgEl = document.querySelectorAll(".damage");
-                        let dmgE = Math.floor(incDamage + dmg * incDamage / 40);
-                        dmgEl.forEach(el => el.innerHTML = dmgE);
-                        let dmgEl66 = document.querySelectorAll(".damage66");
-                        let dmgE66 = Math.floor((incDamage + dmg * incDamage / 40)*.66);
-                        dmgEl66.forEach(el => el.innerHTML = dmgE66);
-                        let dmgEl15 = document.querySelectorAll(".damage15");
-                        let dmgE15 = Math.floor((incDamage + dmg * incDamage / 40)*1.5);
-                        dmgEl15.forEach(el => el.innerHTML = dmgE15);
-                        let dmgEl2 = document.querySelectorAll(".damage20");
-                        let dmgE2 = Math.floor((incDamage + dmg * incDamage / 40)*2);
-                        dmgEl2.forEach(el => el.innerHTML = dmgE2);
-                        let dmgEl125 = document.querySelectorAll(".damage125");
-                        let dmgE125 = Math.floor((incDamage + dmg * incDamage / 40)*1.25);
-                        dmgEl125.forEach(el => el.innerHTML = dmgE125);
-                        let dmgEl133 = document.querySelectorAll(".damage133");
-                        let dmgE133 = Math.floor((incDamage + dmg * incDamage / 40)*1.33);
-                        dmgEl133.forEach(el => el.innerHTML = dmgE133);
-                        let dmgEl05 = document.querySelectorAll(".damage05");
-                        let dmgE05 = Math.floor((incDamage + dmg * incDamage / 40)*.5);
-                        dmgEl05.forEach(el => el.innerHTML = dmgE05);
-                        let dmgEl25 = document.querySelectorAll(".damage25");
-                        let dmgE25 = Math.floor((incDamage + dmg * incDamage / 40)*2.5);
-                        dmgEl25.forEach(el => el.innerHTML = dmgE25);
-                    }
-                }
-                if (rare === 'unique') {
-                    if (lvl > 21) {
-                        document.getElementById("lvl").innerHTML = lvl - 1;
-                        let hp = Number(document.getElementById("hp").innerHTML);
-                        let dmg = Number(document.getElementById("dmg").innerHTML);
-                        let realHealth = document.getElementById("realHealth").innerHTML;
-                        let realDamage = document.getElementById("realDamage").innerHTML;
-                        let incHealth = realHealth / 1.05;
-                        let incDamage = realDamage / 1.05;
-                        document.getElementById("realHealth").innerHTML = incHealth;
-                        document.getElementById("realDamage").innerHTML = incDamage;
-                        document.getElementById("health").innerHTML = Math.floor(incHealth + hp * incHealth / 40);
-                        let dmgEl = document.querySelectorAll(".damage");
-                        let dmgE = Math.floor(incDamage + dmg * incDamage / 40);
-                        dmgEl.forEach(el => el.innerHTML = dmgE);
-                        let dmgEl66 = document.querySelectorAll(".damage66");
-                        let dmgE66 = Math.floor((incDamage + dmg * incDamage / 40)*.66);
-                        dmgEl66.forEach(el => el.innerHTML = dmgE66);
-                        let dmgEl15 = document.querySelectorAll(".damage15");
-                        let dmgE15 = Math.floor((incDamage + dmg * incDamage / 40)*1.5);
-                        dmgEl15.forEach(el => el.innerHTML = dmgE15);
-                        let dmgEl2 = document.querySelectorAll(".damage20");
-                        let dmgE2 = Math.floor((incDamage + dmg * incDamage / 40)*2);
-                        dmgEl2.forEach(el => el.innerHTML = dmgE2);
-                        let dmgEl125 = document.querySelectorAll(".damage125");
-                        let dmgE125 = Math.floor((incDamage + dmg * incDamage / 40)*1.25);
-                        dmgEl125.forEach(el => el.innerHTML = dmgE125);
-                        let dmgEl133 = document.querySelectorAll(".damage133");
-                        let dmgE133 = Math.floor((incDamage + dmg * incDamage / 40)*1.33);
-                        dmgEl133.forEach(el => el.innerHTML = dmgE133);
-                        let dmgEl05 = document.querySelectorAll(".damage05");
-                        let dmgE05 = Math.floor((incDamage + dmg * incDamage / 40)*.5);
-                        dmgEl05.forEach(el => el.innerHTML = dmgE05);
-                        let dmgEl25 = document.querySelectorAll(".damage25");
-                        let dmgE25 = Math.floor((incDamage + dmg * incDamage / 40)*2.5);
-                        dmgEl25.forEach(el => el.innerHTML = dmgE25);
-                    }
-                }
-                if (rare === 'legendary') {
-                    if (lvl > 16) {
-                        document.getElementById("lvl").innerHTML = lvl - 1;
-                        let hp = Number(document.getElementById("hp").innerHTML);
-                        let dmg = Number(document.getElementById("dmg").innerHTML);
-                        let realHealth = document.getElementById("realHealth").innerHTML;
-                        let realDamage = document.getElementById("realDamage").innerHTML;
-                        let incHealth = realHealth / 1.05;
-                        let incDamage = realDamage / 1.05;
-                        document.getElementById("realHealth").innerHTML = incHealth;
-                        document.getElementById("realDamage").innerHTML = incDamage;
-                        document.getElementById("health").innerHTML = Math.floor(incHealth + hp * incHealth / 40);
-                        let dmgEl = document.querySelectorAll(".damage");
-                        let dmgE = Math.floor(incDamage + dmg * incDamage / 40);
-                        dmgEl.forEach(el => el.innerHTML = dmgE);
-                        let dmgEl66 = document.querySelectorAll(".damage66");
-                        let dmgE66 = Math.floor((incDamage + dmg * incDamage / 40)*.66);
-                        dmgEl66.forEach(el => el.innerHTML = dmgE66);
-                        let dmgEl15 = document.querySelectorAll(".damage15");
-                        let dmgE15 = Math.floor((incDamage + dmg * incDamage / 40)*1.5);
-                        dmgEl15.forEach(el => el.innerHTML = dmgE15);
-                        let dmgEl2 = document.querySelectorAll(".damage20");
-                        let dmgE2 = Math.floor((incDamage + dmg * incDamage / 40)*2);
-                        dmgEl2.forEach(el => el.innerHTML = dmgE2);
-                        let dmgEl125 = document.querySelectorAll(".damage125");
-                        let dmgE125 = Math.floor((incDamage + dmg * incDamage / 40)*1.25);
-                        dmgEl125.forEach(el => el.innerHTML = dmgE125);
-                        let dmgEl133 = document.querySelectorAll(".damage133");
-                        let dmgE133 = Math.floor((incDamage + dmg * incDamage / 40)*1.33);
-                        dmgEl133.forEach(el => el.innerHTML = dmgE133);
-                        let dmgEl05 = document.querySelectorAll(".damage05");
-                        let dmgE05 = Math.floor((incDamage + dmg * incDamage / 40)*.5);
-                        dmgEl05.forEach(el => el.innerHTML = dmgE05);
-                        let dmgEl25 = document.querySelectorAll(".damage25");
-                        let dmgE25 = Math.floor((incDamage + dmg * incDamage / 40)*2.5);
-                        dmgEl25.forEach(el => el.innerHTML = dmgE25);
-                    }
-                }
-                if (rare === 'epic') {
-                    if (lvl > 11) {
-                        document.getElementById("lvl").innerHTML = lvl - 1;
-                        let hp = Number(document.getElementById("hp").innerHTML);
-                        let dmg = Number(document.getElementById("dmg").innerHTML);
-                        let realHealth = document.getElementById("realHealth").innerHTML;
-                        let realDamage = document.getElementById("realDamage").innerHTML;
-                        let incHealth = realHealth / 1.05;
-                        let incDamage = realDamage / 1.05;
-                        document.getElementById("realHealth").innerHTML = incHealth;
-                        document.getElementById("realDamage").innerHTML = incDamage;
-                        document.getElementById("health").innerHTML = Math.floor(incHealth + hp * incHealth / 40);
-                        let dmgEl = document.querySelectorAll(".damage");
-                        let dmgE = Math.floor(incDamage + dmg * incDamage / 40);
-                        dmgEl.forEach(el => el.innerHTML = dmgE);
-                        let dmgEl66 = document.querySelectorAll(".damage66");
-                        let dmgE66 = Math.floor((incDamage + dmg * incDamage / 40)*.66);
-                        dmgEl66.forEach(el => el.innerHTML = dmgE66);
-                        let dmgEl15 = document.querySelectorAll(".damage15");
-                        let dmgE15 = Math.floor((incDamage + dmg * incDamage / 40)*1.5);
-                        dmgEl15.forEach(el => el.innerHTML = dmgE15);
-                        let dmgEl2 = document.querySelectorAll(".damage20");
-                        let dmgE2 = Math.floor((incDamage + dmg * incDamage / 40)*2);
-                        dmgEl2.forEach(el => el.innerHTML = dmgE2);
-                        let dmgEl125 = document.querySelectorAll(".damage125");
-                        let dmgE125 = Math.floor((incDamage + dmg * incDamage / 40)*1.25);
-                        dmgEl125.forEach(el => el.innerHTML = dmgE125);
-                        let dmgEl133 = document.querySelectorAll(".damage133");
-                        let dmgE133 = Math.floor((incDamage + dmg * incDamage / 40)*1.33);
-                        dmgEl133.forEach(el => el.innerHTML = dmgE133);
-                        let dmgEl05 = document.querySelectorAll(".damage05");
-                        let dmgE05 = Math.floor((incDamage + dmg * incDamage / 40)*.5);
-                        dmgEl05.forEach(el => el.innerHTML = dmgE05);
-                        let dmgEl25 = document.querySelectorAll(".damage25");
-                        let dmgE25 = Math.floor((incDamage + dmg * incDamage / 40)*2.5);
-                        dmgEl25.forEach(el => el.innerHTML = dmgE25);
-                    }
-                }
+                if (rare === 'omega') {if (lvl > 1) {document.getElementById("lvl").innerHTML = lvl - 1;}}
+                if (rare === 'apex') {if (lvl > 26) {document.getElementById("lvl").innerHTML = lvl - 1;hp (1/1.05);damage (1/1.05);}}
+                if (rare === 'unique') {if (lvl > 21) {document.getElementById("lvl").innerHTML = lvl - 1;hp (1/1.05);damage (1/1.05);}}
+                if (rare === 'legendary') {if (lvl > 16) {document.getElementById("lvl").innerHTML = lvl - 1;hp (1/1.05);damage (1/1.05);}}
+                if (rare === 'epic') {if (lvl > 11) {document.getElementById("lvl").innerHTML = lvl - 1;hp (1/1.05);damage (1/1.05);}}
+                if (rare === 'rare') {if (lvl > 6) {document.getElementById("lvl").innerHTML = lvl - 1;hp (1/1.05);damage (1/1.05);}}
+                if (rare === 'common') {if (lvl > 1) {document.getElementById("lvl").innerHTML = lvl - 1;hp (1/1.05);damage (1/1.05);}}
             }
-        
             function hpInc() {
                 let lvl = document.getElementById("lvl").innerHTML;
                 let hp = Number(document.getElementById("hp").innerHTML);
                 let dmg = Number(document.getElementById("dmg").innerHTML);
                 let spd = Number(document.getElementById("spd").innerHTML);
                 let boost = hp + dmg + spd;
-                if (hp < 20) {
-                    if (boost < lvl) {
-                        let hp = document.getElementById("hp").innerHTML;
-                        hp++;
-                        document.getElementById("hp").innerHTML = hp;
-                        let realHp = document.getElementById("realHealth").innerHTML;
-                        let incHp = Math.floor(Number(realHp) + hp * realHp / 40);
-                        document.getElementById("health").innerHTML = incHp
-                    }
-                }
-                if (hp === 0) {
-                    document.getElementById("health").style.color = "rgb(100, 220, 188)"
-                }
-                if (hp === 19) {
-                    if (boost < lvl) {
-                        document.getElementById("health").style.color = "rgb(226, 202, 29)"
-                    }
-                }
+                if (hp < 20) {if (boost < lvl) {hp++;document.getElementById("hp").innerHTML = hp;hph();}}
+                if (hp === 1) {document.getElementById("health").style.color = "rgb(100, 220, 188)"}
+                if (hp === 20) {if (boost < lvl) {document.getElementById("health").style.color = "rgb(226, 202, 29)"}}
             }
         
             function hpDec() {
                 let hp = document.getElementById("hp").innerHTML;
-                if (hp > 0) {
-                    hp--;
-                    document.getElementById("hp").innerHTML = hp;
-                    let realHp = document.getElementById("realHealth").innerHTML;
-                    let decHp = Math.floor(Number(realHp) + hp * realHp / 40);
-                    document.getElementById("health").innerHTML = decHp
-                }
-                if (hp === 0) {
-                    document.getElementById("health").style.color = "#fff"
-                }
-                if (hp === 19) {
-                    document.getElementById("health").style.color = "rgb(100, 220, 188)"
-                }
+                hp>0&&(hp--,document.getElementById("hp").innerHTML=hp,hph());
+                hp===0&&(document.getElementById("health").style.color="#fff");
+                hp===19&&(document.getElementById("health").style.color="rgb(100, 220, 188)");
             }
-        
             function dmgInc() {
                 let lvl = document.getElementById("lvl").innerHTML;
                 let hp = Number(document.getElementById("hp").innerHTML);
                 let dmg = Number(document.getElementById("dmg").innerHTML);
                 let spd = Number(document.getElementById("spd").innerHTML);
                 let boost = hp + dmg + spd;
-                if (dmg < 20) {
-                    if (boost < lvl) {
-                        let dmg = document.getElementById("dmg").innerHTML;
-                        dmg++;
-                        document.getElementById("dmg").innerHTML = dmg;
-                        let realDmg = document.getElementById("realDamage").innerHTML;
-                        let incDmg = Math.floor(Number(realDmg) + dmg * realDmg / 40);
-                        let incDmg05 = Math.floor(incDmg*.5);
-                        let incDmg66 = Math.floor(incDmg*.66);
-                        let incDmg125 = Math.floor(incDmg*1.25);
-                        let incDmg133 = Math.floor(incDmg*1.33);
-                        let incDmg15 = Math.floor(incDmg*1.5);
-                        let incDmg20 = incDmg*2;
-                        let incDmg25 = Math.floor(incDmg*2.5);
-                        let dmgEl = document.querySelectorAll(".damage");
-                        dmgEl.forEach(el => el.innerHTML = incDmg);
-                        let dmgEl05 = document.querySelectorAll(".damage05");
-                        dmgEl05.forEach(el => el.innerHTML = incDmg05);
-                        let dmgEl66 = document.querySelectorAll(".damage66");
-                        dmgEl66.forEach(el => el.innerHTML = incDmg66);
-                        let dmgEl15 = document.querySelectorAll(".damage15");
-                        dmgEl15.forEach(el => el.innerHTML = incDmg15);
-                        let dmgEl125 = document.querySelectorAll(".damage125");
-                        dmgEl125.forEach(el => el.innerHTML = incDmg125);
-                        let dmgEl133 = document.querySelectorAll(".damage133");
-                        dmgEl133.forEach(el => el.innerHTML = incDmg133);
-                        let dmgEl20 = document.querySelectorAll(".damage20");
-                        dmgEl20.forEach(el => el.innerHTML = incDmg20);
-                        let dmgEl25 = document.querySelectorAll(".damage25");
-                        dmgEl25.forEach(el => el.innerHTML = incDmg25);
-                    }
-                }
-                if (dmg === 0) {
-                    let dmgEl = document.querySelectorAll(".damage");
-                        dmgEl.forEach(el => el.style.color = "rgb(100, 220, 188)");
-                        let dmgEl15 = document.querySelectorAll(".damage15");
-                        dmgEl15.forEach(el => el.style.color = "rgb(100, 220, 188)");
-                        let dmgEl20 = document.querySelectorAll(".damage20");
-                        dmgEl20.forEach(el => el.style.color = "rgb(100, 220, 188)");
-                        let dmgEl66 = document.querySelectorAll(".damage66");
-                        dmgEl66.forEach(el => el.style.color = "rgb(100, 220, 188)");
-                        let dmgEl125 = document.querySelectorAll(".damage125");
-                        dmgEl125.forEach(el => el.style.color = "rgb(100, 220, 188)");
-                        let dmgEl133 = document.querySelectorAll(".damage133");
-                        dmgEl133.forEach(el => el.style.color = "rgb(100, 220, 188)");
-                        let dmgEl05 = document.querySelectorAll(".damage05");
-                        dmgEl05.forEach(el => el.style.color = "rgb(100, 220, 188)");
-                        let dmgEl25 = document.querySelectorAll(".damage25");
-                        dmgEl25.forEach(el => el.style.color = "rgb(100, 220, 188)");
-                }
-                if (dmg === 19) {
-                    if (boost < lvl) {
-                        let dmgEl = document.querySelectorAll(".damage");
-                        dmgEl.forEach(el => el.style.color = "rgb(226, 202, 29)");
-                        let dmgEl15 = document.querySelectorAll(".damage15");
-                        dmgEl15.forEach(el => el.style.color = "rgb(226, 202, 29)");
-                        let dmgEl20 = document.querySelectorAll(".damage20");
-                        dmgEl20.forEach(el => el.style.color = "rgb(226, 202, 29)");
-                        let dmgEl66 = document.querySelectorAll(".damage66");
-                        dmgEl66.forEach(el => el.style.color = "rgb(226, 202, 29)");
-                        let dmgEl125 = document.querySelectorAll(".damage125");
-                        dmgEl125.forEach(el => el.style.color = "rgb(226, 202, 29)");
-                        let dmgEl133 = document.querySelectorAll(".damage133");
-                        dmgEl133.forEach(el => el.style.color = "rgb(226, 202, 29)");
-                        let dmgEl05 = document.querySelectorAll(".damage05");
-                        dmgEl05.forEach(el => el.style.color = "rgb(226, 202, 29)");
-                        let dmgEl25 = document.querySelectorAll(".damage25");
-                        dmgEl25.forEach(el => el.style.color = "rgb(226, 202, 29)");
-                    }
-                }
+                if (dmg < 20) {if (boost < lvl) {dmg++;document.getElementById("dmg").innerHTML=dmg;damaged();}}
+                if (dmg === 1) {damagec(100,220,188); }
+                if (dmg === 20) {if (boost < lvl) {damagec(226, 202, 29);}}
             }
         
             function dmgDec() {
                 let dmg = document.getElementById("dmg").innerHTML;
-                if (dmg > 0) {
-                    dmg--;
-                    document.getElementById("dmg").innerHTML = dmg;
-                    let realDmg = document.getElementById("realDamage").innerHTML;
-                    let decDmg = Math.floor(Number(realDmg) + dmg * realDmg / 40);
-                    let incDmg05 = Math.floor(decDmg*.5);
-                    let incDmg66 = Math.floor(decDmg*.66);
-                    let incDmg125 = Math.floor(decDmg*1.25);
-                    let incDmg133 = Math.floor(decDmg*1.33);
-                    let incDmg15 = Math.floor(decDmg*1.5);
-                    let incDmg25 = Math.floor(decDmg*2.5);
-                    let incDmg20 = decDmg*2;
-                    let dmgEl = document.querySelectorAll(".damage");
-                    dmgEl.forEach(el => el.innerHTML = decDmg);
-                    let dmgEl05 = document.querySelectorAll(".damage05");
-                        dmgEl05.forEach(el => el.innerHTML = incDmg05);
-                    let dmgEl15 = document.querySelectorAll(".damage15");
-                    dmgEl15.forEach(el => el.innerHTML = incDmg15);
-                    let dmgEl20 = document.querySelectorAll(".damage20");
-                    dmgEl20.forEach(el => el.innerHTML = incDmg20);
-                    let dmgEl66 = document.querySelectorAll(".damage66");
-                    dmgEl66.forEach(el => el.innerHTML = incDmg66);
-                    let dmgEl125 = document.querySelectorAll(".damage125");
-                    dmgEl125.forEach(el => el.innerHTML = incDmg125);
-                    let dmgEl133 = document.querySelectorAll(".damage133");
-                    dmgEl133.forEach(el => el.innerHTML = incDmg133);
-                    let dmgEl25 = document.querySelectorAll(".damage25");
-                        dmgEl25.forEach(el => el.innerHTML = incDmg25);
-                }
-                if (dmg === 0) {
-                    let dmgEl = document.querySelectorAll(".damage");
-                    dmgEl.forEach(el => el.style.color = "#fff");
-                    let dmgEl15 = document.querySelectorAll(".damage15");
-                    dmgEl15.forEach(el => el.style.color = "#fff");
-                    let dmgEl20 = document.querySelectorAll(".damage20");
-                    dmgEl20.forEach(el => el.style.color = "#fff");
-                    let dmgEl66 = document.querySelectorAll(".damage66");
-                    dmgEl66.forEach(el => el.style.color = "#fff");
-                    let dmgEl125 = document.querySelectorAll(".damage125");
-                    dmgEl125.forEach(el => el.style.color = "#fff");
-                    let dmgEl133 = document.querySelectorAll(".damage133");
-                    dmgEl133.forEach(el => el.style.color = "#fff");
-                    let dmgEl05 = document.querySelectorAll(".damage05");
-                        dmgEl05.forEach(el => el.style.color = "#fff");
-                        let dmgEl25 = document.querySelectorAll(".damage25");
-                        dmgEl25.forEach(el => el.style.color = "#fff");
-                }
-                if (dmg === 19) {
-                    let dmgEl = document.querySelectorAll(".damage");
-                        dmgEl.forEach(el => el.style.color = "rgb(100, 220, 188)");
-                        let dmgEl15 = document.querySelectorAll(".damage15");
-                        dmgEl15.forEach(el => el.style.color = "rgb(100, 220, 188)");
-                        let dmgEl20 = document.querySelectorAll(".damage20");
-                        dmgEl20.forEach(el => el.style.color = "rgb(100, 220, 188)");
-                        let dmgEl66 = document.querySelectorAll(".damage66");
-                        dmgEl66.forEach(el => el.style.color = "rgb(100, 220, 188)");
-                        let dmgEl125 = document.querySelectorAll(".damage125");
-                        dmgEl125.forEach(el => el.style.color = "rgb(100, 220, 188)");
-                        let dmgEl133 = document.querySelectorAll(".damage133");
-                        dmgEl133.forEach(el => el.style.color = "rgb(100, 220, 188)");
-                        let dmgEl05 = document.querySelectorAll(".damage05");
-                        dmgEl05.forEach(el => el.style.color = "rgb(100, 220, 188)");
-                        let dmgEl25 = document.querySelectorAll(".damage25");
-                        dmgEl25.forEach(el => el.style.color = "rgb(100, 220, 188)");
-                }
+                if (dmg > 0) {dmg--;document.getElementById("dmg").innerHTML=dmg;damaged();}
+                if (dmg === 0) {damagec(255,255,255); }
+                if (dmg === 19) {{damagec(100,220,188); }}
             }
         
             function spdInc() {
@@ -1528,41 +1184,16 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                 let dmg = Number(document.getElementById("dmg").innerHTML);
                 let spd = Number(document.getElementById("spd").innerHTML);
                 let boost = hp + dmg + spd;
-                if (spd < 20) {
-                    if (boost < lvl) {
-                        let spd = document.getElementById("spd").innerHTML;
-                        spd++;
-                        document.getElementById("spd").innerHTML = spd;
-                        let realSpd = document.getElementById("speed").innerHTML;
-                        let incSpd = Number(realSpd) + 2;
-                        document.getElementById("speed").innerHTML = incSpd
-                    }
-                }
-                if (spd === 0) {
-                    document.getElementById("speed").style.color = "rgb(100, 220, 188)"
-                }
-                if (spd === 19) {
-                    if (boost < lvl) {
-                        document.getElementById("speed").style.color = "rgb(226, 202, 29)"
-                    }
+                if (spd < 20) {if (boost < lvl) {spd++;document.getElementById("spd").innerHTML=spd;let realSpd=document.getElementById("speed").innerHTML,incSpd=Number(realSpd)+2;document.getElementById("speed").innerHTML=incSpd;}}
+                if (spd === 1) {document.getElementById("speed").style.color = "rgb(100, 220, 188)"}
+                if (spd === 20) {if (boost < lvl) {document.getElementById("speed").style.color = "rgb(226, 202, 29)"}
                 }
             }
-        
             function spdDec() {
                 let spd = document.getElementById("spd").innerHTML;
-                if (spd > 0) {
-                    spd--;
-                    document.getElementById("spd").innerHTML = spd;
-                    let realSpd = document.getElementById("speed").innerHTML;
-                    let decSpd = Number(realSpd) - 2;
-                    document.getElementById("speed").innerHTML = decSpd
-                }
-                if (spd === 0) {
-                    document.getElementById("speed").style.color = "#fff"
-                }
-                if (spd === 19) {
-                    document.getElementById("speed").style.color = "rgb(100, 220, 188)"
-                }
+                if (spd > 0) {spd--;document.getElementById("spd").innerHTML=spd;let realSpd=document.getElementById("speed").innerHTML,decSpd=Number(realSpd)-2;document.getElementById("speed").innerHTML=decSpd;}
+                if (spd === 0) {document.getElementById("speed").style.color = "#fff"}
+                if (spd === 19) {document.getElementById("speed").style.color = "rgb(100, 220, 188)"}
             }
             let lvl = Number(document.getElementById("lvl").innerHTML);
             let oHealth = Number(document.getElementById("ohealth").innerHTML);
@@ -1571,20 +1202,37 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
             let oArmor = Number(document.getElementById("oarmor").innerHTML);
             let oCrit = Number(document.getElementById("ocrit").innerHTML);
             let oCritD = Number(document.getElementById("ocritd").innerHTML);
-        
-            function ohpinc() {
+            function oh(a){
                 let hp = Number(document.getElementById("hp").innerHTML);
+                let realHp = Number(document.getElementById("realHealth").innerHTML);
+                    let incHp = Math.round(realHp + realHp/40*hp + a);
+                    let tHp = Math.round(realHp + a);
+                    document.getElementById("health").innerHTML = incHp;
+                    document.getElementById("realHealth").innerHTML = tHp;
+            }
+            function od(a){
+                let dmg = Number(document.getElementById("dmg").innerHTML);
+                let realDmg = Number(document.getElementById("realDamage").innerHTML);
+                    let incDmg = Math.round(realDmg + dmg*realDmg/40 + a);
+                    let tDmg = Math.round(realDmg + a);
+                    document.getElementById("damage").innerHTML = incDmg;
+                    document.getElementById("realDamage").innerHTML = tDmg;
+            }
+            function oa (a,b) {
+                let arm = document.getElementById(b).innerHTML;
+                    arm = arm.slice(0, -1)
+                    let realArm = Number(arm) +a;
+                    document.getElementById(b).innerHTML = realArm + '%';
+            }
+            function ohpinc() {
+                
                 let plvl = lvl * 7;
                 let points = oHealth + oDamage + oSpd + oArmor + oCrit + oCritD;
                 if (oHealth < 102){
                  if (points < plvl) {
                     oHealth++;
                     document.getElementById("ohealth").innerHTML = oHealth;
-                    let realHp = Number(document.getElementById("realHealth").innerHTML);
-                    let incHp = Math.floor(realHp + realHp/40*hp + 40);
-                    let tHp = Math.floor(realHp + 40);
-                    document.getElementById("health").innerHTML = incHp;
-                    document.getElementById("realHealth").innerHTML = tHp;
+                    oh(40);
                 }}
             }
         
@@ -1592,28 +1240,18 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                 if (oHealth > 0) {
                     oHealth--;
                     document.getElementById("ohealth").innerHTML = oHealth;
-                    let hp = Number(document.getElementById("hp").innerHTML);
-                    let realHp = Number(document.getElementById("realHealth").innerHTML);
-                    let decHp = Math.floor(realHp + (realHp -40)/40*hp - 40);
-                    let tHp = Math.floor(realHp - 40);
-                    document.getElementById("health").innerHTML = decHp;
-                    document.getElementById("realHealth").innerHTML = tHp;
+                    oh(-40);
                 }
             }
         
             function odmginc() {
-                let dmg = Number(document.getElementById("dmg").innerHTML);
                 let plvl = lvl * 7;
                 let points = oHealth + oDamage + oSpd + oArmor + oCrit + oCritD;
                 if (oDamage < 97) {
                     if (points < plvl) {
                     oDamage++;
                     document.getElementById("odamage").innerHTML = oDamage;
-                    let realDmg = Number(document.getElementById("realDamage").innerHTML);
-                    let incDmg = Math.floor(realDmg + dmg*realDmg/40 + 15);
-                    let tDmg = Math.floor(realDmg + 15);
-                    document.getElementById("damage").innerHTML = incDmg;
-                    document.getElementById("realDamage").innerHTML = tDmg;
+                    od(15);
                 }}
             }
         
@@ -1621,12 +1259,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                 if (oDamage > 0) {
                     oDamage--;
                     document.getElementById("odamage").innerHTML = oDamage;
-                    let dmg = Number(document.getElementById("dmg").innerHTML);
-                    let realDmg = Number(document.getElementById("realDamage").innerHTML);
-                    let decDmg = Math.floor(realDmg + dmg*(realDmg-15)/40 - 15);
-                    let tDmg = Math.floor(realDmg - 15);
-                    document.getElementById("damage").innerHTML = decDmg;
-                    document.getElementById("realDamage").innerHTML = tDmg;
+                    od(-15);
                 }
             }
         
@@ -1660,11 +1293,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                     if (points < plvl) {
                     oArmor++;
                     document.getElementById("oarmor").innerHTML = oArmor;
-                    let arm = document.getElementById("armor").innerHTML;
-                    arm = arm.slice(0, -1)
-                    let realArm = Number(arm);
-                    let incArm = realArm + 1;
-                    document.getElementById("armor").innerHTML = incArm + '%';
+                    oa(1,"armor");
                 }}
             }
         
@@ -1672,11 +1301,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                 if (oArmor > 0) {
                     oArmor--;
                     document.getElementById("oarmor").innerHTML = oArmor;
-                    let arm = document.getElementById("armor").innerHTML;
-                    arm = arm.slice(0, -1)
-                    let realArm = Number(arm);
-                    let decArm = realArm - 1;
-                    document.getElementById("armor").innerHTML = decArm + '%';
+                    oa(-1,"armor");
                 }
             }
         
@@ -1687,11 +1312,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                     if (points < plvl) {
                     oCrit++;
                     document.getElementById("ocrit").innerHTML = oCrit;
-                    let arm = document.getElementById("crit").innerHTML;
-                    arm = arm.slice(0, -1)
-                    let realArm = Number(arm);
-                    let incArm = realArm + 1;
-                    document.getElementById("crit").innerHTML = incArm + '%';
+                    oa(1,"crit");
                 }}
             }
         
@@ -1699,11 +1320,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                 if (oCrit > 0) {
                     oCrit--;
                     document.getElementById("ocrit").innerHTML = oCrit;
-                    let arm = document.getElementById("crit").innerHTML;
-                    arm = arm.slice(0, -1)
-                    let realArm = Number(arm);
-                    let decArm = realArm - 1;
-                    document.getElementById("crit").innerHTML = decArm + '%';
+                    oa(-1,"crit");
                 }
             }
         
