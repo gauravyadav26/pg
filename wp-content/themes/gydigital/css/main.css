@@ -356,32 +356,20 @@ template {
 .share-buttons {
 	max-width:var(--wp--style--global--wide-size);
     grid-template-columns: repeat(auto-fit,minmax(80px,1fr));
-    grid-row-gap: 4px;
-    font-size: .7rem;
-    line-height: .7rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 18px auto;
-    background: var(--wp--preset--color--main);
-    padding: 16px 0;
-    border-radius: 16px;
+    gap: 4px;
+    margin: 32px auto;
+    
 }
 .share-buttons div {
-    padding: 12px 12px 9px;
-    text-align: center;
-	margin:0;
+    padding: 12px 12px 2px;
+	text-align:center;
+	border-radius:12px;
+	margin:6px 0;
 }
-.share-buttons a {
-    display: block;
-    color: #fff;
-}
-.share-buttons svg {
-    fill: #fff;
-    margin-right: 5px;
-    width: 16px;
-    height: 16px;
-}
+.facebook-share-button{background:#6788ce}
+.twitter-share-button{background:#29c5f6}
+.reddit-share-button{background:#f26322}
+
 .wp-block-comment-reply-link a {display:inline-block;border: 1px solid var(--wp--preset--color--main);
     padding: 8px 20px;
     color: var(--wp--preset--color--main);margin-bottom:12px;}
@@ -392,6 +380,14 @@ template {
 .ability-title{var(--wp--preset--color--jwalight);color: var(--wp--preset--color--vivid-cyan-blue);font-weight: bolder;}
 @media (min-width:900px) {
 	.post-grid{grid-template-columns:1fr 1fr;}
-	.post-grid .wp-block-post-title{display:flex;align-items:center;}
-	
+	.post-grid .wp-block-post-title{display:flex;align-items:center;}}
+	@media (min-width:1200px) {
+	.share-buttons{display: block;
+    position: fixed;
+    bottom: 72px;
+		left: 42px;}
+		.share-buttons div{
+			min-width:72px;
+		border-radius:4px;
+		}
 }
