@@ -1,0 +1,359 @@
+Name,Rarity,Health,Damage,Speed,Armor,Crit
+'93 Classic T. Rex,Omega,1350,540,109,0%,10%
+Acrocanthops,Legendary,4500,1800,112,0%,20%
+Acrocanthosaurus,Epic,4800,1700,110,0%,30%
+Aenocyonyx,Unique,4800,1500,128,0%,25%
+Ailurarctos,Epic,3900,1350,106,10%,5%
+Alacranix,Apex,4050,1600,109,40%,15%
+Alankyloceratops,Unique,5400,1200,113,40%,5%
+Alankylosaurus,Legendary,4800,1000,114,30%,5%
+Alanqa,Epic,4050,1200,125,0%,5%
+Albertocevia,Unique,4650,1600,121,0%,10%
+Albertosaurus,Rare,4350,1750,106,0%,30%
+Albertospinos,Unique,4200,1550,125,0%,15%
+Allodrigues,Unique,3300,1750,130,0%,15%
+Alloraptor,Legendary,3300,1700,130,0%,40%
+Allosaurus,Common,4650,1750,104,0%,20%
+Allosaurus Gen2,Epic,4500,1800,105,0%,40%
+Allosinosaurus,Legendary,4500,1800,106,15%,20%
+Amargasaurus,Rare,5250,1000,103,0%,5%
+Amargocephalus,Epic,3600,900,104,40%,5%
+Amphicyon,Common,3150,1300,122,0%,40%
+Andrewsarchus,Rare,3300,1400,125,0%,40%
+Andrewtherium,Epic,3600,1300,119,5%,25%
+Andrewtodon,Epic,3450,1300,112,15%,25%
+Andrewtops,Unique,3900,1600,126,10%,20%
+Ankylocodon,Rare,4500,1000,107,25%,20%
+Ankylodactylus,Legendary,3150,1200,126,15%,5%
+Ankylodicurus,Epic,4200,1150,108,35%,15%
+Ankylomoloch,Legendary,4050,1150,118,20%,10%
+Ankylos Lux,Apex,4200,1100,110,35%,5%
+Ankylosaurus,Epic,4650,1000,116,30%,5%
+Ankylosaurus Gen 2,Common,4200,1000,111,25%,5%
+Ankyntrosaurus,Legendary,3900,900,109,40%,5%
+Antarctopelta,Epic,3750,1000,111,30%,10%
+Antarctovenator,Unique,4200,1200,110,20%,10%
+Anurognathus,Epic,2550,1150,131,0%,10%
+Apatosaurus,Common,6000,1100,101,0%,5%
+Aquilamimus,Epic,2850,1150,130,0%,5%
+Arambourgiania,Rare,4350,1000,115,0%,5%
+Archaeopteryx,Rare,3300,1250,127,0%,10%
+Archaeotherium,Common,4650,1000,123,10%,20%
+Arctalces,Legendary,3750,1150,113,15%,5%
+Arctodus,Rare,4200,1250,107,10%,5%
+Arctops,Rare,3000,1400,131,0%,5%
+Arctovasilas,Apex,4800,1400,117,35%,5%
+Ardentismaxima,Unique,6000,1300,109,10%,30%
+Ardontognathus,Unique,3300,1300,123,0%,25%
+Ardontosaurus,Legendary,4500,1500,108,0%,20%
+Argentavis,Rare,4050,1050,128,0%,10%
+Argenteryx,Epic,3750,1150,127,0%,10%
+Argentinosaurus,Rare,5400,1100,102,0%,20%
+Atrocimoloch,Unique,4500,1450,124,15%,5%
+Atrocodistis,Unique,4000,1300,123,20%,5%
+Australotitan,Omega,1150,660,86,5%,0%
+Bajadasaurus,Rare,4350,900,108,0%,5%
+Bajatonodon,Legendary,4500,1500,106,0%,5%
+Baryonyx,Epic,4200,1400,126,0%,30%
+Baryonyx Gen 2,Rare,4350,1000,123,0%,20%
+Beelzebufo,Epic,3600,1550,125,0%,10%
+Beta,Epic,2400,1200,133,0%,5%
+Blue,Epic,2400,1300,131,0%,5%
+Brachiosaurus,Epic,6000,1000,111,10%,30%
+Brontolasmus,Epic,3900,1300,108,30%,5%
+Brontotherium,Common,4200,1200,108,20%,5%
+Bumpy,Epic,4400,1100,113,25%,10%
+Carbonemys,Epic,3300,900,103,60%,5%
+Carbotoceratops,Legendary,4350,1000,104,50%,5%
+Carnotarkus,Legendary,3600,1000,110,20%,5%
+Carnotaurus,Rare,3600,1000,104,0%,5%
+Ceramagnus,Apex,4800,1300,113,25%,10%
+Ceratosaurus,Unique,5250,1550,119,10%,15%
+Cervalces,Rare,3300,1250,128,5%,10%
+Charlie,Rare,2100,1450,130,0%,5%
+Clever Girl,Omega,1300,500,119,0%,30%
+Coelhaast,Legendary,3150,1250,130,0%,10%
+Coelurosauravus,Common,3450,1050,126,0%,15%
+Compsocaulus,Unique,3750,1350,127,0%,10%
+Compsognathus,Epic,3600,1200,128,0%,5%
+Compsognathus Gen 2,Rare,3750,1100,127,0%,10%
+Compsoraptor,Unique,3350,1350,130,0%,30%
+Concavenator,Epic,3750,1150,106,0%,10%
+Constrictoraptor,Unique,4100,1350,125,5%,10%
+Dakotanops,Legendary,3300,1200,131,0%,10%
+Dakotaraptor,Epic,3150,1200,129,0%,5%
+Darwezopteryx,Legendary,4200,1000,127,0%,5%
+Darwinopterus,Epic,2700,1000,129,0%,5%
+Deinocheirus,Common,2700,1350,131,0%,5%
+Deinonychus,Common,2100,1200,132,0%,5%
+Deinotherium,Rare,3900,1050,115,5%,10%
+Delta,Rare,2400,1300,131,0%,5%
+Diabloceratops,Omega,1500,400,104,6%,5%
+Dilophoboa,Legendary,3600,1100,124,0%,10%
+Dilophosaurus,Rare,3600,1300,124,0%,5%
+Dilophosaurus Gen 2,Common,2550,1850,121,0%,5%
+Diloracheirus,Unique,4470,1650,128,0%,10%
+Diloranosaurus,Legendary,4200,1500,116,0%,5%
+Dimetrodon,Rare,4200,1400,113,0%,5%
+Dimetrodon Gen 2,Common,4500,1200,112,0%,5%
+Dimodactylus,Epic,3750,1150,127,0%,15%
+Dimorphodon,Common,2700,500,128,0%,5%
+Diorajasaur,Unique,4800,1200,108,30%,30%
+Diplocaulus,Common,2850,1600,125,0%,5%
+Diplocaulus Gen 2,Rare,4050,1000,125,0%,5%
+Diplodocus,Epic,6000,1500,104,0%,5%
+Diplotator,Rare,3000,1400,127,0%,5%
+Diplovenator,Legendary,4050,1000,110,0%,5%
+Dire Wolf,Rare,3600,1450,127,0%,20%
+Dodo,Epic,3900,1200,123,0%,5%
+Dodocevia,Legendary,4050,1400,126,0%,5%
+Doedicurus,Rare,4200,1200,111,50%,5%
+Dracoceratops,Legendary,4200,1500,115,0%,5%
+Dracoceratosaurus,Unique,4500,1600,120,20%,5%
+Dracorex,Rare,4800,1100,124,0%,5%
+Dracorex Gen 2,Common,3600,1500,108,0%,5%
+Dracovenator,Unique,4500,1750,128,0%,20%
+Dreadactylus,Legendary,4200,1000,112,5%,5%
+Dreadnoughtus,Rare,6000,1000,107,10%,5%
+Dsungaia,Legendary,4200,1050,117,20%,5%
+Dsungaripterus,Rare,3450,1000,125,0%,5%
+Dsungascorpios,Unique,3300,1100,116,30%,15%
+Echo,Rare,2100,1350,129,0%,5%
+Edaphocevia,Legendary,4200,1000,127,0%,5%
+Edaphosaurus,Epic,4500,1000,115,0%,20%
+Edmontoguanodon,Epic,4500,1200,110,0%,5%
+Edmontosaurus,Rare,4800,1000,113,0%,5%
+Einiasuchus,Rare,3600,1000,111,20%,5%
+Einiosaurus,Common,3600,1000,110,15%,5%
+Elasmotherium,Rare,4500,1250,108,30%,5%
+Enteloceros,Legendary,4500,1300,126,20%,10%
+Entelochops,Epic,4200,1100,126,20%,5%
+Entelodon,Rare,3600,1200,122,0%,30%
+Entelolania,Unique,4200,1400,107,55%,5%
+Entelomoth,Legendary,4200,1000,120,20%,5%
+Eremoceros,Legendary,3900,1300,126,10%,5%
+Eremotherium,Common,3150,1050,102,0%,5%
+Erlidominus,Unique,3600,1600,131,0%,50%
+Erlikogamma,Epic,3000,1450,130,0%,5%
+Erlikosaurus,Epic,3000,1400,129,0%,5%
+Erlikosaurus Gen 2,Rare,3000,1350,129,0%,5%
+Erlikospyx,Unique,4650,1650,128,0%,20%
+Eucladoceros,Epic,3300,1000,128,10%,5%
+Euoplocephalus,Common,3600,900,112,40%,5%
+Fukuimimus,Legendary,4800,1250,121,0%,15%
+Fukuiraptor,Omega,1150,530,117,10%,20%
+Fukuisaurus,Rare,4650,1050,115,0%,5%
+Gallimimus,Common,2700,1300,130,0%,5%
+Geminideus,Apex,6600,1200,110,30%,5%
+Geminititan,Unique,5600,1300,110,0%,5%
+Ghost,Epic,3000,1350,130,0%,10%
+Giganotosaurus,Epic,5400,1700,102,0%,30%
+Giganyx,Unique,5100,1650,125,0%,25%
+Gigaspikasaur,Legendary,4650,1200,108,40%,5%
+Giraffatitan,Rare,5700,1000,107,10%,20%
+Glyptoceras,Legendary,3750,1300,113,25%,10%
+Glyptodon,Common,3900,1000,103,40%,5%
+Gorgonops,Rare,3150,1100,132,0%,10%
+Gorgosaurus,Rare,4200,1700,102,0%,20%
+Gorgosuchus,Epic,4500,1000,120,0%,30%
+Gorgotrebax,Apex,4500,1600,113,0%,20%
+Grylenken,Legendary,3600,1500,129,10%,10%
+Grypolyth,Unique,4200,1250,106,20%,5%
+Gryposuchus,Epic,4200,1200,116,20%,20%
+Haast Eagle,Epic,2700,1150,132,0%,5%
+Haast Eagle Gen 2,Rare,3000,1000,130,0%,5%
+Haast Maximus,Apex,4350,1550,128,0%,25%
+Hadros Lux,Apex,5100,1350,108,0%,5%
+Hatzegopteryx,Common,4500,1150,114,0%,5%
+Hydra Boa,Apex,4200,1350,122,15%,30%
+Ichthyovenator,Omega,1350,440,118,0%,10%
+Iguanodon,Common,4350,1150,112,0%,5%
+Imperatosuchus,Apex,4650,1350,112,25%,15%
+Indolycan,Apex,4500,1700,130,0%,30%
+Indominus Rex,Legendary,4500,1500,107,0%,30%
+Indominus Rex Gen 2,Epic,4200,1400,108,0%,20%
+Indonemys,Apex,4500,1550,119,30%,20%
+Indoraptor,Unique,4200,1400,128,0%,20%
+Indoraptor Gen 2,Legendary,3900,1450,128,0%,20%
+Indotaurus,Unique,4650,1600,106,0%,20%
+Inostherium,Rare,3000,1400,131,0%,5%
+Inostrancevia,Common,3900,1200,130,0%,5%
+Irritator,Rare,4500,1000,126,0%,30%
+Irritator Gen 2,Common,3300,1000,124,0%,30%
+Kaprosuchus,Rare,3900,1000,125,0%,5%
+Kelenken,Rare,3000,1600,131,0%,5%
+Kentrosaurus,Epic,4500,1000,112,10%,5%
+Keratoporcus,Legendary,4500,1200,110,20%,5%
+Koolabourgiana,Legendary,4950,1000,117,0%,5%
+Koolasuchus,Epic,3900,1000,127,0%,5%
+Koolasuchus Gen 2,Rare,4500,1500,126,0%,5%
+Koreanosaurus,Omega,1440,400,104,5%,5%
+Lystrosaurus,Epic,3600,1150,125,0%,10%
+Lystrosavis,Unique,3750,1350,131,0%,20%
+Lystrosuchus,Legendary,3900,1150,123,10%,10%
+Lythronax,Common,4200,1000,104,0%,5%
+Magnapyritor,Unique,3900,1450,128,0%,20%
+Maiasaura,Epic,3000,1300,126,0%,5%
+Majundaboa,Epic,3600,1000,110,0%,5%
+Majundasuchus,Rare,3750,1100,108,0%,5%
+Majungasaurus,Common,3450,1000,105,0%,5%
+Mammolania,Unique,5100,1000,115,50%,5%
+Mammotherium,Legendary,3600,1500,115,30%,5%
+Marsupial Lion,Rare,4050,1000,117,0%,40%
+Megalania,Omega,1200,380,100,0%,0%
+Megaloceros,Rare,3300,1000,127,10%,5%
+Megalogaia,Epic,3750,1000,122,0%,5%
+Megalonyx,Rare,3450,1200,103,0%,10%
+Megalosaurus,Rare,3900,1000,105,0%,5%
+Megalosuchus,Legendary,3600,1000,109,0%,5%
+Megalotops,Epic,3750,1150,108,10%,10%
+Megistocurus,Legendary,3750,1400,115,15%,30%
+Megistotherium,Epic,3600,1350,120,0%,40%
+Meiolania,Rare,3300,1000,105,50%,5%
+Microraptor,Epic,1650,1100,136,0%,15%
+Miragaia,Common,3000,1000,109,0%,5%
+Monolometrodon,Legendary,4200,1400,125,0%,5%
+Monolophosaurus,Epic,3100,1300,127,0%,5%
+Monolophosaurus Gen 2,Common,2700,1350,126,0%,5%
+Monolorhino,Unique,4500,1250,116,30%,5%
+Monomimus,Legendary,3750,1350,131,0%,5%
+Monostegotops,Legendary,3750,1000,116,25%,5%
+Moros Intrepidus,Epic,3300,1200,115,0%,20%
+Mortem Rex,Apex,4800,2000,108,0%,40%
+Moschops,Rare,4500,1000,113,25%,5%
+Nasutoceratops,Rare,4800,1000,109,20%,5%
+Nodopatosaurus,Epic,4800,1000,106,30%,5%
+Nodopatotitan,Legendary,6150,1100,108,40%,5%
+Nodosaurus,Rare,4350,950,115,30%,5%
+Nundasuchus,Common,3000,1500,128,0%,5%
+Ophiacodon,Common,4350,1400,108,0%,40%
+Ornithomimus,Rare,3000,1600,131,0%,5%
+Ouranosaurus,Epic,3600,1500,104,10%,5%
+Ovilophomoloch,Legendary,3150,1250,129,0%,10%
+Ovilophosaurus,Epic,2850,1200,127,0%,10%
+Oviraptor,Rare,2700,1300,129,0%,15%
+Oviraptor Gen 2,Epic,2600,1350,131,0%,15%
+Pachycephalosaurus,Epic,3900,1200,121,0%,5%
+Panthera,Epic,3250,1300,126,5%,10%
+Panthera Blytheae,Legendary,3900,1550,126,0%,20%
+Paramoloch,Legendary,4350,1500,126,0%,5%
+Parasaurolophus,Common,4500,1200,106,0%,5%
+Parasaurolophus Lux,Legendary,4950,1250,106,0%,5%
+Parasauthops,Unique,4650,1550,109,0%,15%
+Phorurex,Unique,3900,1500,128,0%,10%
+Phorusaura,Legendary,3600,1400,130,0%,5%
+Phorusrhacos,Common,3000,1500,130,0%,5%
+Postimetrodon,Epic,4500,1200,124,0%,5%
+Postosuchus,Rare,3000,1200,126,0%,20%
+Poukaidei,Legendary,4050,1500,131,0%,5%
+Poukandactylus,Unique,4050,1200,127,0%,15%
+Preondactylus,Rare,2250,1350,133,0%,5%
+Procerathomimus,Epic,3000,1600,127,0%,5%
+Proceratosaurus,Rare,3000,1300,126,0%,5%
+Pteranodon,Epic,3300,900,127,0%,5%
+Pteranokyrie,Apex,5100,1550,128,25%,10%
+Pteraquetzal,Legendary,4500,1000,125,0%,5%
+Pterovexus,Unique,4450,1450,130,5%,20%
+Pulmonoscorpius,Epic,2400,1000,116,30%,15%
+Purrolyth,Rare,3600,1000,105,10%,5%
+Purussaurus,Rare,4500,1000,111,15%,5%
+Purussaurus Gen 2,Common,4200,1250,111,10%,20%
+Purutaurus,Epic,4200,1000,110,0%,5%
+Pyroraptor,Epic,3150,1500,129,0%,5%
+Pyroraptor Gen 2,Rare,3150,1200,129,0%,10%
+Pyrorixis,Unique,4500,1500,128,10%,10%
+Pyrosuchus,Legendary,3750,1350,126,15%,5%
+Pyrritator,Legendary,2550,1400,129,0%,20%
+Quetzalcoatlus,Rare,5100,1000,117,0%,5%
+Quetzalcoatlus Gen 2,Epic,3600,1080,121,10%,10%
+Quetzorion,Unique,4350,1600,130,0%,20%
+Rajakylosaurus,Legendary,4350,1000,104,30%,5%
+Rajasaurus,Epic,4200,1000,104,0%,30%
+Red,Epic,3450,1250,123,15%,5%
+Refrenantem,Apex,4800,1600,126,0%,20%
+Rexy,Legendary,4950,1850,106,0%,45%
+Rinchenia,Epic,2700,1450,129,0%,10%
+Rinchicyon,Legendary,3450,1400,129,0%,25%
+Rodrigues Solitaire,Rare,2850,1300,128,0%,5%
+Sarcorixis,Epic,4500,1100,113,25%,5%
+Sarcosuchus,Common,3600,1000,108,10%,5%
+Scaphognathus,Rare,2700,1000,128,0%,5%
+Scaphotator,Epic,3000,1000,127,0%,5%
+Scolosaurus,Common,4050,1000,107,30%,5%
+Scorpios Rex,Legendary,3750,1300,117,0%,15%
+Scorpios Rex Gen 2,Epic,3600,1250,118,0%,10%
+Scorpios Rex Gen 3,Unique,4050,1350,119,0%,25%
+Scutophicyon,Legendary,3600,1350,118,10%,25%
+Scutosaurus,Epic,4800,1200,116,25%,5%
+Secodontosaurus,Epic,3900,1500,114,0%,5%
+Segnoraptor,Legendary,3300,1250,134,0%,5%
+Segnosaurus,Omega,1260,460,103,5%,5%
+Segnotherisaurus,Unique,4100,1350,125,10%,25%
+Sinoceratops,Epic,3300,1000,107,25%,5%
+Sinokotaraptor,Legendary,3300,1200,128,0%,10%
+Sinosauropteryx,Common,2700,1000,128,0%,10%
+Skoolasaurus,Legendary,4500,1000,124,30%,5%
+Skoonasaurus,Unique,5850,1150,108,30%,20%
+Smilocephalosaurus,Legendary,3750,1400,127,0%,5%
+Smilodon,Epic,3000,1500,129,0%,5%
+Smilonemys,Unique,4200,1200,127,40%,5%
+Sonorasaurus,Epic,5250,1000,105,0%,5%
+Spinoceratops,Legendary,5100,1150,118,30%,5%
+Spinoconstrictor,Unique,4500,1300,126,0%,10%
+Spinonyx,Legendary,4200,1000,124,0%,5%
+Spinosaurus,Rare,3600,1000,122,0%,5%
+Spinosaurus Gen 2,Epic,3900,1000,122,0%,5%
+Spinotahraptor,Epic,2850,1400,126,0%,5%
+Spinotasuchus,Legendary,3750,1000,129,0%,5%
+Stegoceras,Epic,3600,1250,115,0%,15%
+Stegoceratops,Epic,3600,1000,107,25%,5%
+Stegodeus,Legendary,5100,1100,107,30%,5%
+Stegosaurus,Common,3900,1000,116,20%,5%
+Stegouros,Omega,1300,430,109,4%,6%
+Struthiomimus,Epic,3300,1300,126,0%,15%
+Stygidaryx,Unique,4050,1150,128,0%,5%
+Stygimoloch,Epic,3150,1500,129,0%,5%
+Stygimoloch Gen 2,Common,3000,1300,128,0%,5%
+Styracosaurus Lux,Unique,4800,1500,121,15%,10%
+Suchomimus,Common,3900,1000,104,0%,5%
+Suchotator,Rare,4500,1300,116,0%,20%
+Tanycolagreus,Common,2850,1560,130,0%,5%
+Tarbognathus,Legendary,3000,1450,123,0%,30%
+Tarbosaurus,Common,4500,1700,104,0%,40%
+Tenontorex,Unique,4500,1900,109,0%,20%
+Tenontosaurus,Rare,4500,1000,114,0%,5%
+Testacornibus,Unique,4200,1100,128,45%,5%
+Therizinosaurus,Rare,3300,1300,130,0%,5%
+Thoradolosaur,Unique,4500,1750,105,0%,30%
+Thylaconyx,Legendary,4800,1250,122,0%,25%
+Thylacotator,Epic,4500,1000,117,0%,40%
+Thylos Intrepidus,Unique,4200,1400,125,0%,40%
+Tiger,Epic,3600,1350,119,15%,5%
+Titanoboa,Epic,4500,1300,115,0%,20%
+Titanoboa Gen 2,Rare,4350,1000,115,0%,20%
+Toro,Omega,1320,395,107,5%,5%
+Tragodistis,Legendary,4500,1000,105,40%,5%
+Triceratops,Rare,3300,1000,111,20%,5%
+Triceratops Gen 2,Common,3750,1000,110,10%,5%
+Troodoboa,Unique,3900,1200,117,0%,10%
+Troodon,Epic,3000,1200,130,0%,5%
+Trykosaurus,Unique,4350,1600,108,35%,20%
+Tryostronix,Legendary,4200,1400,125,0%,20%
+Tsintamoth,Legendary,4950,1250,113,10%,5%
+Tsintaosaurus,Epic,4350,1250,108,0%,5%
+Tuojiangosaurus,Rare,3600,1000,105,0%,5%
+Tuoramoloch,Unique,4200,1500,126,0%,5%
+Tupandactylus,Rare,3000,950,126,0%,5%
+Tyrannolophosaur,Legendary,4200,1650,108,0%,30%
+Tyrannometrodon,Unique,4950,1900,110,0%,35%
+Tyrannosaurus Rex,Epic,4800,1900,102,0%,30%
+Tyrannosaurus Rex Gen 2,Rare,4350,1800,104,0%,20%
+Utahraptor,Rare,2250,1400,128,0%,5%
+Utarinex,Unique,3600,1650,128,10%,25%
+Utasinoraptor,Legendary,3000,1400,127,15%,5%
+Velociraptor,Common,1650,1550,132,0%,5%
+Velosrhacos,Epic,3000,1400,130,0%,5%
+Woolly Mammoth,Epic,4200,1000,115,10%,5%
+Woolly Rhino,Epic,4500,1500,108,10%,5%
+Wuerhosaurus,Rare,4500,1000,115,25%,5%
+Yuxisaurus,Omega,1500,410,105,10%,10%
